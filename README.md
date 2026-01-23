@@ -1,17 +1,36 @@
-# Quartz v4
+# OFL Synthesis Wiki
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Documentation site for the [Open Facilitation Library](https://github.com/Open-Facilitation-Library) — open standards for AI-assisted facilitation.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+**[View the site](https://open-facilitation-library.github.io/synthesis-quartz/)**
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Contents
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- **Seminars** — Summaries from the OFL seminar series featuring experts in facilitation and deliberative democracy
+- **Research** — Academic frameworks like WHoW for moderation analysis
+- **Knowledge Base** — Core concepts, glossary, and methodology comparisons
+- **Evaluation Frameworks** — Tools for assessing AI facilitator performance
 
-## Sponsors
+## Related Repos
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- [synthesis](https://github.com/Open-Facilitation-Library/synthesis) — Source content and evaluation frameworks
+- [skills](https://github.com/Open-Facilitation-Library/skills) — Machine-readable facilitation patterns
+- [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) — Opinion exposure algorithms
+
+## Development
+
+This site is built with [Quartz](https://quartz.jzhao.xyz/). To run locally:
+
+```bash
+npm install
+npx quartz build --serve
+```
+
+## Stay Connected
+
+- **[Subscribe on Substack](https://openfac.substack.com)** — Updates on OFL research and community
+- **[Support on Giveth](https://giveth.io/project/open-facilitation-library)** — Help fund open facilitation standards
+
+## License
+
+MIT License
