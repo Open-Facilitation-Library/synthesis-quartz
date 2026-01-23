@@ -37,6 +37,12 @@ Tools for assessing facilitation quality.
 - [skills](https://github.com/Open-Facilitation-Library/skills) - Machine-readable facilitation patterns
 - [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) - Opinion exposure algorithms and deliberation tools
 
+## Subscribe
+
+Stay updated with OFL research and announcements:
+
+<iframe src="https://openfac.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 ## Contributing
 
 1. Add research summaries
