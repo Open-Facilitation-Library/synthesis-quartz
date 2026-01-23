@@ -37,6 +37,12 @@ Tools for assessing facilitation quality.
 - [skills](https://github.com/Open-Facilitation-Library/skills) - Machine-readable facilitation patterns
 - [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) - Opinion exposure algorithms and deliberation tools
 
+## Support OFL
+
+The Open Facilitation Library is a community-driven project that needs your support to continue developing open standards for AI-assisted facilitation.
+
+**[Donate on Giveth](https://giveth.io/project/open-facilitation-library)** - Help fund research, development, and community building.
+
 ## Subscribe
 
 Stay updated with OFL research and announcements:
