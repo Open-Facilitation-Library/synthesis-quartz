@@ -6,6 +6,12 @@ title: OFL Synthesis
 
 Knowledge base, evaluation frameworks, and research for the [Open Facilitation Library](https://github.com/Open-Facilitation-Library).
 
+## Seminars
+
+The OFL seminar series brings together experts in facilitation, deliberative democracy, and AI-assisted dialogue.
+
+[[seminars/index|Browse all seminars]] | Recent: [[seminars/alice-siu|Alice Siu]], [[seminars/jigsaw|Jigsaw]], [[seminars/martin-carcasson|Martin Carcasson]]
+
 ## Research
 
 | Resource | Description |
