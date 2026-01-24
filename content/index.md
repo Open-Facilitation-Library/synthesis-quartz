@@ -14,9 +14,16 @@ The OFL seminar series brings together experts in facilitation, deliberative dem
 
 ## Research
 
-| Resource | Description |
-|----------|-------------|
-| [[research/WHoW-Framework\|WHoW Framework]] | Academic framework for moderation analysis (Chen et al. 2024) |
+Key papers and research topics supporting OFL development.
+
+| Paper | Description |
+|-------|-------------|
+| [[research/WHoW-Framework\|WHoW Framework]] | Cross-domain moderation analysis (Chen et al. 2024) |
+| [[research/fora-corpus\|Fora Corpus]] | 262 facilitated dialogues from MIT (Schroeder et al. 2024) |
+
+**Research Topics:** [[research/facilitation-techniques|Facilitation Techniques]] | [[research/deliberative-mini-publics|Deliberative Mini-Publics]] | [[research/ai-moderation-chatbots|AI Moderation]] | [[research/storytelling-deliberation|Storytelling]]
+
+[[research/index|Browse all research →]]
 
 ## Knowledge Base
 
