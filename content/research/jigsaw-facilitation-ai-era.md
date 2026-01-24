@@ -3,108 +3,42 @@ title: "Jigsaw: Facilitation in the AI Era"
 tags:
   - research
   - facilitation
-  - AI
   - ethnography
   - deliberation
 ---
 
 # Facilitation in the AI Era
 
-An ethnographic study of expert facilitation practices across domains, conducted by Jigsaw (Google) in collaboration with 22 professional facilitators worldwide.
-
-*Source: Jigsaw Research Report (2025)*
+*[Jigsaw (Google), 2025](https://jigsaw.google.com/) — Ethnographic Research Report*
 
 ---
 
-## Overview
+What do expert facilitators actually *do*? Despite facilitation being central to deliberative democracy, peacebuilding, and organizational decision-making, the practice itself remains poorly understood—a "black box" that practitioners learn through apprenticeship rather than explicit instruction.
 
-In February-March 2025, researchers at Jigsaw conducted an ethnographic study interviewing 22 professional facilitators across 6 continents. The study explores how expert facilitators work, their mental models, and their emerging approaches to technology and AI.
+In early 2025, researchers at [Jigsaw](https://jigsaw.google.com/) (a unit within Google focused on disinformation and online safety) interviewed 22 professional facilitators across six continents to document their mental models, techniques, and early perspectives on AI assistance. The study spans domains from corporate workshops to post-conflict reconciliation, capturing facilitation as practiced by people like [Alice Siu](https://cdd.stanford.edu/people/alice-siu/) at Stanford's [Center for Deliberative Democracy](https://cdd.stanford.edu/), practitioners at [Build Up](https://howtobuildup.org/) working in active conflict zones, and community facilitators in Australia and Europe.
 
-## Research Team
+## What Facilitators Think They Do
 
-**Jigsaw (Google):** Ian Beacock, Emily Saltz, Beth Goldberg, Thea Mann
+One striking finding: there's no agreed-upon definition of facilitation. Practitioners describe their role through different metaphors—**conductor** (actively directing the conversation), **referee** (enforcing rules), or **container** (holding space for whatever emerges). These aren't just different words for the same thing; they reflect genuinely different philosophies about how much a facilitator should shape outcomes versus let groups find their own way.
 
-**Contributing Facilitators:**
-- Wasim Almasri (ALLMEP)
-- Mahmoud Bastati (Build Up)
-- Alessandra Cardaci (Debating Europe)
-- Albert Cevallos (CANVAS)
-- Cui Jia Wei (vTaiwan)
-- Caleb Gichuhi (Build Up)
-- Andrea Gallagher (Staple and Spindle)
-- Michele Holt-Shannon (University of New Hampshire)
-- Nicole Hunter (MosaicLab)
-- Emily Jenke (DemocracyCo / Friends of Europe)
-- Felix Kufus (CMI)
-- Scott Lappan-Newton (Gauge)
-- Alice Siu (Stanford University)
+This ambiguity matters for AI facilitation. If experts can't agree on what good facilitation looks like, training AI systems to facilitate becomes a values question as much as a technical one. The [[evals/why-how-who-framework|Why-How-Who framework]] attempts to make these choices explicit.
 
-## Key Findings
+## Cross-Domain Patterns
 
-### Facilitation as a "Black Box"
+Despite the diversity, some patterns emerge across contexts. Facilitators consistently emphasize [[knowledge-base/glossary#Psychological Safety|psychological safety]]—creating conditions where participants feel able to speak honestly. They distinguish between managing the *process* (who speaks when, how long discussions run) and managing the *content* (what gets discussed, what conclusions emerge). Most see their role as primarily process-focused, though the boundary blurs in practice.
 
-The study addresses a critical gap: deep ethnographic research on facilitation is relatively rare, contributing to a view of facilitation as a "black box" that is crucial yet poorly understood.
+The study also captures facilitators' early, often cautious, perspectives on AI assistance. Some see potential for AI to handle logistics and note-taking, freeing human facilitators for relationship work. Others worry about AI flattening the nuance that makes facilitation effective.
 
-### Diverse Definitions of Facilitation
+## Why This Matters for OFL
 
-No universally agreed-upon definition exists. Facilitators see their role variously as:
+This study provides ground truth that quantitative approaches miss. The [[research/WHoW-Framework|WHoW Framework]] can tell us *what* moderation moves occur in conversations, but not *why* skilled practitioners choose them. The [[research/fora-corpus|Fora corpus]] shows patterns in facilitator behavior, but not the reasoning behind those patterns. Ethnographic work like this fills the gap.
 
-| Metaphor | Role Description |
-|----------|------------------|
-| **Conductor/Pilot** | Active director of conversation |
-| **Referee/Traffic cop** | Rule enforcer |
-| **Container** | "Holding" space for group deliberation |
+For building AI facilitators, the key insight may be the diversity itself. A single "best" facilitation style probably doesn't exist—different contexts and cultures call for different approaches. This suggests AI facilitation systems should be configurable rather than one-size-fits-all.
 
-### Cross-Domain Insights
+## The Research Team
 
-The study draws together facilitation practices from:
-- Deliberative democracy
-- Peacebuilding and conflict resolution
-- Corporate facilitation
-- Community engagement
-- Mediation
+The study was led by Ian Beacock, Emily Saltz, Beth Goldberg, and Thea Mann at Jigsaw, with contributions from facilitators including Wasim Almasri ([ALLMEP](https://www.allmep.org/)), Cui Jia Wei ([vTaiwan](https://info.vtaiwan.tw/)), Nicole Hunter ([MosaicLab](https://www.mosaiclab.com.au/)), and Emily Jenke ([DemocracyCo](https://www.democracyco.com.au/)).
 
-### Emerging AI Approaches
+## Related Research
 
-Facilitators are developing diverse approaches to technology and AI integration, with the study capturing early perspectives on AI-assisted facilitation.
-
-## Methodology
-
-- **Interviews:** 22 professional facilitators
-- **Geography:** 6 continents, including Global South, active conflict, and post-conflict regions
-- **Domains:** Deliberative democracy, peacebuilding, mediation, corporate, community engagement
-- **Supplementary research:** Extensive literature review across political theory, political science, peace and conflict studies
-- **Observations:** Processes in US, Australia, and Canada
-
-## Key Literature Referenced
-
-The study builds on prior calls for qualitative facilitation research:
-- von Schneidemesser et al., 2023 (facilitation as "black box")
-- Moore, 2012; Wall and Dunne, 2012 (qualitative research calls)
-- Landwehr, 2014; Escobar, 2019 (frameworks and definitions)
-- Mansbridge et al., 2006; Ryfe, 2006 (qualitative research)
-- Dillard, 2013; Waldman, 2024 (facilitation practices)
-- maree brown, 2021 (definitions and frameworks)
-
-## Relevance to OFL
-
-### For Pattern Development
-- Provides real-world facilitator mental models
-- Reveals diversity of facilitation approaches
-- Identifies cross-domain commonalities
-
-### For AI Facilitation
-- Captures expert facilitator perspectives on AI
-- Highlights what human facilitators value
-- Identifies potential risks and opportunities
-
-### For Evaluation
-- Qualitative insights complement quantitative frameworks
-- Ground truth from diverse practitioner perspectives
-
-## See Also
-
-- [[research/WHoW-Framework|WHoW Framework]] - Quantitative moderation analysis
-- [[research/ai-moderation-chatbots|AI Moderation & Chatbots]]
-- [[seminars/alice-siu|Alice Siu Seminar]] - Stanford deliberation research
-- [[seminars/jigsaw|Jigsaw Seminar]]
+For quantitative analysis of moderation, see [[research/WHoW-Framework|the WHoW Framework]]. The [[research/fora-corpus|Fora corpus]] provides data on facilitated dialogue from MIT. For OFL's seminar with Alice Siu on deliberative polling, see [[seminars/alice-siu|the seminar notes]].

@@ -62,6 +62,9 @@ Assessing facilitation quality by measuring results (agreement reached, particip
 
 ## F
 
+### Facilitation
+The practice of guiding group processes to achieve productive outcomes. Distinct from [[#Moderation|moderation]] (which enforces rules) in that facilitation actively encourages participation and shapes discussion flow rather than just preventing violations. See [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]] for practitioner perspectives.
+
 ### Facilitation Primitive
 A basic building block of facilitation that can be composed into larger methodologies. Examples: probing question, summarization, reflection prompt.
 
@@ -94,6 +97,13 @@ How a facilitator engages with participants: non-directive (minimal guidance), s
 
 ---
 
+## M
+
+### Moderation
+Ensuring orderly interaction by enforcing community guidelines and removing violations. Distinct from [[#Facilitation|facilitation]] in that moderation is primarily reactive (responding to problems) rather than proactive (shaping discussion). The [[research/WHoW-Framework|WHoW Framework]] provides a taxonomy of moderation actions.
+
+---
+
 ## O
 
 ### One-to-One
@@ -118,6 +128,9 @@ A facilitation mode involving the entire group simultaneously, typically for inf
 ### Preference Elicitation
 An outcome goal of facilitation where individual preferences are surfaced and captured.
 
+### Psychological Safety
+A shared belief that the group is safe for interpersonal risk-taking. In facilitated settings, psychological safety enables participants to share honest views, disagree openly, and admit uncertainty. Creating this safety is often cited by practitioners as foundational to effective [[#Facilitation|facilitation]]. See [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]].
+
 ---
 
 ## R
@@ -141,6 +154,9 @@ An outcome goal of facilitation where diverse inputs are aggregated into coheren
 
 ### Transformative
 A category of facilitation focused on conflict resolution, perspective shifts, and relationship repair.
+
+### Turn-taking
+The pattern of who speaks when in a conversation. In facilitated settings, balanced turn-taking (where participants contribute roughly equally) is often a goal. Unequal turn-taking can indicate power imbalances or dominant voices crowding out others. The [[research/fora-corpus|Fora corpus]] includes analysis of turn-taking patterns in facilitated dialogue.
 
 ---
 

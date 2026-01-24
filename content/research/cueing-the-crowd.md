@@ -4,153 +4,43 @@ tags:
   - research
   - LLM
   - brainstorming
-  - conversational-cues
   - collective-intelligence
 ---
 
 # Cueing the Crowd: LLM-Driven Conversational Cues
 
-LLM-driven conversational cues across different meeting modalities increase topical diversity of generated ideas during collaborative brainstorming.
-
-*Source: [CI 2025](https://doi.org/10.1145/3715928.3737486) (Rayan et al., 2025)*
+*[Rayan et al., 2025](https://doi.org/10.1145/3715928.3737486) — Collective Intelligence Conference*
 
 ---
 
-## Overview
+Can an AI listening to your conversation occasionally nudge you toward unexplored territory? This study from [UC San Diego's Design Lab](https://designlab.ucsd.edu/) suggests yes—and that these nudges work whether you're meeting in person or over video.
 
-This research investigates how AI-generated conversational cues can support verbal group discussions. The CueTip system uses GPT-4o-mini to generate real-time contextual cues that stimulate ideation during brainstorming sessions, comparing effects across virtual and in-person modalities.
+The researchers built **CueTip**, a system that transcribes ongoing conversations and uses [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) to generate short "conversational cues"—prompts of five words or fewer that appear on screen every minute. Think of them as gentle suggestions: *"What about environmental impact?"* or *"Consider the elderly"* when a brainstorming session gets stuck.
 
-## Authors
+## The Experiment
 
-- Jude Abishek Rayan, Shaokang Jiang, Nishant Balaji, Jinmao Wang, Ian Gross, Cole Biehle, Steven P. Dow
+172 participants worked in pairs on a 20-minute brainstorming task (finding alternative uses for recyclable items). Half received AI-generated cues; half didn't. The study also compared in-person and virtual meetings, creating four conditions.
 
-**Institution:** University of California, San Diego
+The main finding: **cued groups generated more topically diverse ideas** than uncued groups, regardless of whether they met face-to-face or over video. The cues didn't necessarily increase the *quantity* of ideas, but they expanded the *conceptual range* that participants explored.
 
-## Research Questions
+Interestingly, in-person participants noticed slightly more cues on average than virtual participants—suggesting that meeting modality affects how people allocate attention to AI assistance.
 
-- **RQ1:** How do AI-generated conversational cues impact the productivity of verbal group brainstorming?
-- **RQ2:** How does modality (in-person vs. virtual) affect attention to cues and overall discussion?
+## Why This Matters for [[knowledge-base/concepts/ai-facilitation-approaches|AI Facilitation]]
 
-## CueTip System
+CueTip represents a lightweight form of [[knowledge-base/glossary#Inference-time Skills|inference-time facilitation]]—the AI doesn't take over the conversation, it simply offers occasional prompts. This contrasts with more active approaches like the [[research/agent-facilitates-crowd-discussion|D-agree platform]], where the AI directly participates in discussion.
 
-### Key Features
+The study offers practical design guidance:
 
-1. **Video conferencing integration** - Supports voice/video control and chat
-2. **Real-time transcription** - Microphones capture conversation for LLM context
-3. **LLM-powered cue generation** - GPT-4o-mini generates contextual cues
-4. **Cue notification** - Visual + audio alerts for new cues
-5. **Collaborative notes** - Shared note-taking space
-6. **Cue history** - Users can revisit prior cues
+**Brevity helps.** Cues under five words worked well. Longer prompts might feel intrusive or break conversational flow.
 
-### Cue Generation
+**Consistency matters.** Regular timing (one cue per minute) let participants develop expectations about when cues would arrive, making them easier to integrate.
 
-- Uses GPT-4o-mini model
-- Cues limited to <5 words based on piloting
-- Generated every minute for consistency
-- Context includes conversation summary and recent utterances
-
-## Study Design
-
-### 2x2 Factorial Design
-
-| Condition | Cues | Modality |
-|-----------|------|----------|
-| Cue-Virtual | Yes | Virtual |
-| Cue-InPerson | Yes | In-person |
-| NoCue-Virtual | No | Virtual |
-| NoCue-InPerson | No | In-person |
-
-### Participants
-
-- **N = 172** participants in 86 dyads
-- Ages 18-37 (median 21)
-- Balanced for gender and age
-
-### Task
-
-20-minute brainstorming session to generate alternative uses for recyclable items from a beach cleanup.
-
-## Key Findings
-
-### Topic Diversity
-
-**Cued participants generated significantly more topically diverse ideas than non-cued dyads** across both modalities.
-
-### Modality Effects
-
-- In-person groups noticed slightly more cues on average than virtual groups
-- Positive correlation between cue noticing rate and topic diversity
-- Number of ideas correlated with cue noticing only in virtual groups
-
-### Participant Feedback
-
-Participants reported that cues:
-- Allowed exploration of new directions
-- Helped when they ran out of ideas
-- Opened up the conversation space
-
-## Hypotheses Tested
-
-**H1:** AI-generated conversational cues impact real-time group brainstorming productivity ✓
-
-**H2:** Discussion modality impacts cue noticing rate and brainstorming productivity ✓
-
-## Technical Implementation
-
-### Cue Delivery
-- Visual notification on screen
-- Subtle audio chime
-- Consistent timing (1 cue per minute, ~18 total)
-
-### Setup
-- Two laptops per dyad
-- Researcher present in both conditions
-- Real-time collaborative notes via TipTap
-
-## Design Implications
-
-### For Conversational AI Support
-
-1. **Brevity matters** - Short cues (<5 words) worked well
-2. **Timing consistency** - Regular intervals maintain engagement
-3. **Multi-modal notification** - Visual + audio helps noticing
-4. **Context awareness** - LLM uses conversation history for relevance
-
-### For Meeting Modality
-
-1. **In-person** - Higher cue noticing, different attention allocation
-2. **Virtual** - Cue noticing correlates with idea quantity
-3. **Both benefit** - Topic diversity improves regardless of modality
-
-## Relevance to OFL
-
-### For AI Facilitation
-
-- Demonstrates LLM-based real-time facilitation
-- Shows cues can enhance rather than distract
-- Provides modality-specific design guidance
-
-### For Pattern Development
-
-- Cue generation as a facilitation pattern
-- Timing and notification strategies
-- Topic diversity as outcome measure
-
-### For Evaluation
-
-- Methodology for measuring brainstorming productivity
-- Topic diversity metrics
-- Cue noticing rate as process measure
+**Modality shapes attention.** Virtual meetings may require different notification strategies than in-person ones—participants allocate attention differently when a screen is already their primary focus.
 
 ## Limitations
 
-- Dyads only (not larger groups)
-- Single brainstorming task type
-- Short duration (20 minutes)
-- Lab setting vs. real-world meetings
+The study used dyads (pairs) rather than larger groups, where facilitation challenges multiply. The brainstorming task was also relatively simple—more complex [[knowledge-base/glossary#Deliberative|deliberative]] discussions might respond differently to AI cues.
 
-## See Also
+## Related Research
 
-- [[research/agent-facilitates-crowd-discussion|D-agree Platform]]
-- [[research/ai-moderation-chatbots|AI Moderation & Chatbots]]
-- [[research/bringing-everyone-to-table|LLM vs Human Facilitation]]
+For more active AI facilitation approaches, see [[research/agent-facilitates-crowd-discussion|D-agree: An Agent that Facilitates Crowd Discussion]]. For a comparison of AI versus human facilitators on decision-making tasks, see [[research/bringing-everyone-to-table|Bringing Everyone to the Table]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of AI facilitation strategies.

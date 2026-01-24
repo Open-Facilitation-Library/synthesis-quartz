@@ -10,141 +10,57 @@ tags:
 
 # Generative Social Choice
 
-A new paradigm for designing democratic processes that combines social choice theory with LLM capabilities for open-ended collective decisions.
-
-*Source: [arXiv:2309.01291v3](https://arxiv.org/abs/2309.01291) (Fish et al., 2025)*
+*[Fish et al., 2025](https://arxiv.org/abs/2309.01291) — Harvard & Cornell*
 
 ---
 
-## Overview
+Traditional voting works when you have a fixed menu: pick candidate A, B, or C. But what about questions like "What should our AI policy priorities be?" where the options themselves need to be generated? This paper from [Harvard](https://www.harvard.edu/) and [Cornell](https://www.cornell.edu/) introduces *generative social choice*—using LLMs to both generate policy statements and predict how different people would feel about them.
 
-Traditional social choice theory only applies to choices among predetermined alternatives. Generative Social Choice extends this to open-ended decisions—such as collectively selecting textual statements—by combining mathematical rigor with LLM text generation and preference extrapolation.
+## The Core Idea
 
-## Authors
+Social choice theory studies how to aggregate individual preferences into collective decisions. It typically assumes preferences over a known set of alternatives. But many important questions are open-ended: citizens might agree on wanting "fair housing policy" while disagreeing wildly on what that means in practice.
 
-Sara Fish, Paul Gölz, David C. Parkes, Ariel D. Procaccia, Gili Rusak, Itai Shapira, Manuel Wüthrich
+The insight here is that LLMs can do two things that enable a new kind of democratic process:
 
-**Institutions:** Harvard University, Cornell University
+1. **Generate statements** that attempt to capture what a group wants
+2. **Predict preferences** over statements even for people who haven't rated them
 
-## The Problem
+This lets you run something like a deliberation at scale, without requiring every participant to read and rate every possible option.
 
-Many pressing questions are too nuanced for traditional voting:
-- Deliberative minipublics on climate change, electoral reform
-- AI alignment questions (e.g., "how far should AI personalization go?")
-- Complex policy recommendations
+## How It Works
 
-Traditional voting lacks:
-- **Scalability** for open-ended questions
-- **Guarantees** on representation quality
+The process uses mathematical guarantees from learning theory. The key concept is *VC dimension*—a measure of how complex the preference space is. If preferences have bounded VC dimension (meaning people's opinions follow some underlying structure rather than being totally random), then you can identify representative statements with a manageable number of queries.
 
-## Framework Design
+In practice, the researchers:
 
-The methodology divides AI-augmented democratic processes into two components:
+1. Ask participants to describe their views on a topic (abortion policy in the trial)
+2. Use an LLM to embed these views as "feature ratings" (50 dimensions)
+3. Cluster participants into groups with similar views
+4. Generate candidate statements optimized for each cluster
+5. Verify that the statements actually represent people well
 
-### 1. Oracle Query Design
-Prove the process satisfies representation guarantees given access to oracle queries:
-- **Discriminative queries**: Compare preference between statements
-- **Generative queries**: Generate statements optimizing for a group
+The mathematical machinery ensures *Balanced Justified Representation*: for any group of similar-minded people above a certain size, at least one statement in the output represents them well.
 
-### 2. LLM Implementation
-Empirically validate that oracle queries can be approximately implemented using LLMs.
+## The Trial
 
-## Key Concepts
+100 representative US residents discussed abortion policy. The process generated a slate of 5 statements. **84 out of 100 participants** felt "excellently" or "exceptionally" represented by the slate—not that they agreed with every statement, but that their perspective was included.
 
-### Statement Space Complexity
+This is notable because abortion is a divisive topic where traditional voting tends to produce winners and losers rather than representative summaries.
 
-Uses VC dimension (from learning theory) to measure complexity:
-- Low VC dimension = structured preference space
-- Enables representation guarantees with finite queries
+## Limitations to Note
 
-### Representation Guarantees
+The approach assumes preferences have structure (bounded VC dimension). For topics where opinions are genuinely chaotic, the guarantees don't hold. The LLM preference predictions may also carry biases from training data—if the model has systematic blind spots about certain viewpoints, those perspectives may be underrepresented.
 
-**Balanced Justified Representation (BJR):**
-For any cohesive group of size ≥ n/k, at least one statement in the output slate is well-liked by that group.
+The trial also focused on opinion *summarization*, not decision-making. Generating representative statements is different from choosing policies—the latter requires additional mechanisms for evaluation and selection.
 
-## Empirical Validation
+## Connection to OFL
 
-### Trial Design
-- **Participants:** 100 representative US residents
-- **Topic:** Abortion policy opinions
-- **Output:** Slate of 5 representative statements
+This research addresses a different part of the facilitation pipeline than most OFL work. Where papers like [[research/cueing-the-crowd|Cueing the Crowd]] and [[research/agent-facilitates-crowd-discussion|D-agree]] focus on *during* conversation, generative social choice addresses the *synthesis* phase—turning a collection of perspectives into representative outputs.
 
-### Results
-**84 out of 100 participants** felt "excellently" or "exceptionally" represented by the extracted slate.
+For [[knowledge-base/glossary#Cross-Pollination|cross-pollination]], the preference-prediction capability is particularly relevant. If an LLM can predict how someone would feel about a statement, it can identify which statements would be most surprising or perspective-expanding for them.
 
-### LLM Implementation
+The VC dimension framework might also inform [[evals/why-how-who-framework|evaluation]]: if a facilitation process produces outputs where participants feel represented, that's evidence the process captured the structure of opinions in the room.
 
-The process uses a multi-component design:
+## Related Research
 
-1. **Feature Embedding:** LLM rates each agent on 50 sampled features (7-point scale)
-2. **Clustering:** Nearest-neighbor and balanced k-means identify cohesive groups
-3. **Statement Generation:** LLM generates statements maximizing minimum utility in cluster
-
-## Process Design
-
-### Process 1: Basic Version
-- Uses Gen(S, r) queries for generating statements
-- Polynomial time in n, k
-
-### Process 2: Bounded Complexity
-- Runs Gen on random subset of agents
-- Subset size independent of total n
-- Achieves BJR with bounded VC dimension
-
-## Technical Insights
-
-### Discriminative Query Performance
-Preference prediction accuracy validated against held-out statements:
-- Higher predicted preferences correlate with higher actual ratings
-- Token probabilities enable fine-grained preference estimation
-
-### Generative Query Challenges
-- LLMs struggle with direct optimization of Gen(S, r)
-- Decomposition into (i) group identification + (ii) statement generation works better
-- Clustering provides more robust group identification than pure LLM
-
-## Applications
-
-### Deliberative Minipublics
-- Scale deliberation to larger populations
-- Maintain representation guarantees
-- Complement rather than replace face-to-face deliberation
-
-### AI Alignment
-- Aggregate diverse stakeholder preferences
-- Generate representative policy statements
-- Democratic input to AI development
-
-### Policy Consultation
-- Summarize public opinion on complex issues
-- Proportional representation of viewpoints
-- Transparent methodology
-
-## Relevance to OFL
-
-### For Cross-Pollination
-- Mathematical framework for opinion aggregation
-- Representation guarantees for diverse viewpoints
-- LLM-based preference extrapolation
-
-### For Evaluation
-- VC dimension as complexity measure
-- BJR as fairness criterion
-- Empirical validation methodology
-
-### For Pattern Development
-- Statement generation as facilitation output
-- Clustering for group identification
-- Preference modeling approaches
-
-## Limitations
-
-- Assumes structured preference space (bounded VC dimension)
-- LLM preference extrapolation may have biases
-- Validated only for opinion summarization task
-
-## See Also
-
-- [[research/deliberative-mini-publics|Deliberative Mini-Publics]]
-- [[knowledge-base/concepts/ai-facilitation-approaches|AI Facilitation Approaches]]
-- [[research/evaluation-facilitation-llm-era|Evaluation & Facilitation Survey]]
+For AI facilitation during discussion, see [[research/bringing-everyone-to-table|Bringing Everyone to the Table]]. For opinion aggregation in [[knowledge-base/glossary#Deliberative|deliberative]] contexts, see [[research/deliberative-mini-publics|Deliberative Mini-Publics]].

@@ -1,139 +1,50 @@
 ---
-title: "An Agent that Facilitates Crowd Discussion"
+title: "D-agree: An Agent that Facilitates Crowd Discussion"
 tags:
   - research
   - AI-facilitation
   - crowd-scale
-  - IBIS
   - argumentation
 ---
 
-# An Agent that Facilitates Crowd Discussion
+# D-agree: An Agent that Facilitates Crowd Discussion
 
-A crowd-scale discussion support system (D-agree) based on an automated facilitation agent that extracts discussion structures, analyzes them, and posts facilitation messages.
-
-*Source: [Group Decision and Negotiation 31:621–647](https://doi.org/10.1007/s10726-021-09765-8) (Ito et al., 2022)*
+*[Ito, Hadfi & Suzuki, 2022](https://doi.org/10.1007/s10726-021-09765-8) — Group Decision and Negotiation*
 
 ---
 
-## Overview
+When a city wants to hear from thousands of citizens at once, human facilitators hit a wall. They can't read a thousand simultaneous posts, identify who's making related points, or notice when a promising idea needs more exploration. This paper from [Kyoto University](https://www.kyoto-u.ac.jp/en) presents D-agree, a platform where an AI agent works alongside human facilitators to manage crowd-scale online discussions.
 
-Online discussion platforms need support functions to integrate opinions and achieve consensus at scale. Human facilitators face cognitive challenges when discussions grow large. This paper presents D-agree, a system that combines automated facilitation agents with human facilitators to manage crowd-scale online discussions.
+The core insight: **combining AI and human facilitators outperforms either alone.** The AI handles what it's good at—tracking structure, noticing patterns, keeping discussions moving—while humans handle nuance, judgment, and relationship-building.
 
-## Authors
+## How It Works
 
-- Takayuki Ito, Rafik Hadfi (Kyoto University)
-- Shota Suzuki (Nagoya Institute of Technology)
+D-agree structures discussions using the [IBIS framework](https://en.wikipedia.org/wiki/Issue-based_information_system) (Issue-Based Information System), which classifies every post as an **issue** (a question to discuss), an **idea** (a proposed answer), or an **argument** (support or criticism of an idea). A CNN-based classifier tags incoming posts in real-time, building a map of how the discussion branches.
 
-## The Problem
+The AI facilitator monitors this structure and intervenes when needed. If an issue has no ideas yet, it prompts for suggestions. If an idea lacks supporting arguments, it asks for reasoning. If a branch of discussion goes quiet while others flourish, it draws attention back.
 
-Crowd-scale discussion platforms face key challenges:
-- Human facilitators struggle with thousands of simultaneous opinions
-- Complex themes require structured argumentation
-- Need to extract insights while maintaining discussion quality
+## The Nagoya Experiments
 
-## D-Agree Platform
+The researchers ran both small controlled experiments and large-scale deployments with the municipal government of [Nagoya City](https://www.city.nagoya.jp/en/). In the city-wide discussions, the platform collected citizen opinions that were later used in actual policy development—a concrete example of AI-assisted [[knowledge-base/glossary#Deliberative|deliberation]] influencing real decisions.
 
-### Architecture
+Three findings stood out:
 
-The system combines:
-1. **Web platform** - Hosts participants and message exchange
-2. **Automated facilitation agent** - Analyzes and responds to discussion
+**The agent increases both quantity and diversity of contributions.** Participants posted more, and explored more distinct lines of reasoning, when the AI facilitator was active.
 
-### IBIS-Based Facilitation
+**Human-AI collaboration beats either alone.** Discussions with both a human facilitator and the AI agent showed higher participant satisfaction than those with just one or the other.
 
-Uses Issue-Based Information System (IBIS) framework:
-- **Issues** - Questions or problems to discuss
-- **Ideas** - Proposed solutions or positions
-- **Arguments** - Pros and cons supporting/opposing ideas
+**Participants accepted the AI facilitator.** Satisfaction scores remained above average even in conditions with AI-only facilitation—participants weren't put off by interacting with an automated system.
 
-The agent classifies posts using deep learning (CNN-based) and builds argument maps.
+## Connection to Modern LLM Approaches
 
-### Facilitation Mechanism
+D-agree was built before the current wave of large language models—its facilitation rules are hand-crafted based on argument structure, not learned from examples. This makes it less flexible than [[knowledge-base/glossary#Inference-time Skills|inference-time approaches]] using models like GPT-4, but also more predictable and explainable.
 
-1. Agent identifies post type (issue, idea, argument)
-2. Extracts discussion structure
-3. Detects when facilitation is needed
-4. Posts targeted facilitation messages
-
-## Research Hypotheses
-
-**Hypothesis 1:** The agent can incentivize participants to submit more postings and diversify them.
-
-**Hypothesis 2:** Agent + human facilitator collaboration increases overall facilitation performance.
-
-**Hypothesis 3:** Participant satisfaction with agent facilitation is above average.
-
-## Experiments
-
-### Large-Scale Social Experiment
-- **Location:** Nagoya City, Japan
-- **Collaboration:** Municipal government
-- **Scale:** Crowd-scale citizen participation
-- **Outcome:** Collected insights used for social policies
-
-### Small-Scale Controlled Experiment
-- Compared agent-only, human-only, and combined facilitation
-- Measured post diversity, quantity, and user satisfaction
-
-## Key Findings
-
-1. **Combined facilitation works best** - Agent + human facilitator leads to higher user satisfaction
-2. **Agent increases participation** - More posts and greater diversity with agent facilitation
-3. **Real policy impact** - Results used by Nagoya municipal government for policy development
-
-## Technical Approach
-
-### Post Classification
-- CNN-based deep learning classifier
-- Trained on labeled IBIS elements
-- Real-time classification of incoming posts
-
-### Facilitation Rules
-Rule-based responses tied to argument structure:
-- Prompt for ideas when only issues exist
-- Request arguments when ideas lack support
-- Encourage exploration of under-discussed branches
-
-## Evaluation Methodology
-
-Combined approaches:
-- Quantitative analysis of IBIS elements generated
-- User satisfaction questionnaires
-- Psychological measurement scales
-- Statistical analysis of interaction patterns
+The IBIS framework provides a structured scaffolding that modern systems often lack. Papers like [[research/cueing-the-crowd|Cueing the Crowd]] show LLMs can generate useful prompts, but they don't track the logical structure of arguments the way D-agree does. A hybrid approach—LLM fluency with IBIS structure—might combine the best of both.
 
 ## Relevance to OFL
 
-### For AI Facilitation
-- Demonstrates viable automated facilitation at scale
-- IBIS framework for structured discussion
-- Human-AI collaboration model
+D-agree demonstrates that AI facilitation can work at genuine crowd scale, with real policy impact. It also shows the value of explicit structure (the IBIS framework) for automated reasoning about conversations. For the [[evals/why-how-who-framework|Why-How-Who evaluation framework]], D-agree provides evidence that process metrics (argument diversity, branch coverage) correlate with outcome metrics (participant satisfaction, policy uptake).
 
-### For Pattern Development
-- Facilitation rules based on argument structure
-- Classification-based intervention triggers
-- Real-world deployment insights
+## Related Research
 
-### For Evaluation
-- Satisfaction measurement methodology
-- Participation metrics (quantity, diversity)
-- Policy impact as outcome measure
-
-## Limitations
-
-- Rule-based facilitation (pre-LLM era)
-- Japanese language focus
-- Structured IBIS format required
-
-## Related Work
-
-- COLLAGREE system (predecessor platform)
-- Participatory budgeting systems
-- Climate Change Collaboratorium
-
-## See Also
-
-- [[research/ai-moderation-chatbots|AI Moderation & Chatbots]]
-- [[research/evaluation-facilitation-llm-era|LLM Facilitation Survey]]
-- [[research/deliberative-mini-publics|Deliberative Mini-Publics]]
+For a comprehensive survey of AI facilitation approaches, see [[research/evaluation-facilitation-llm-era|Korre et al.'s survey]]. The [[research/fora-corpus|Fora corpus]] provides human facilitator baselines that could benchmark systems like D-agree. For lighter-weight AI assistance, see [[research/cueing-the-crowd|Cueing the Crowd]].

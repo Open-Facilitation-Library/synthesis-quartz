@@ -1,99 +1,54 @@
 ---
-title: "Bringing Everyone to the Table: LLM-Facilitated Group Decision Making"
+title: "Bringing Everyone to the Table: LLM vs Human Facilitation"
 tags:
   - research
   - LLM
   - facilitation
   - experiment
-  - group-decision
 ---
 
 # Bringing Everyone to the Table
 
-An experimental study comparing LLM facilitation to human facilitation and no facilitation in group decision-making tasks.
-
-*Source: Experimental Study (2025)*
+*Experimental Study, 2025*
 
 ---
 
-## Overview
+Here's a question that sounds simple but isn't: can an LLM facilitate a group discussion as well as a human? This study sets up a controlled experiment to find out, comparing four conditions—no facilitation, a static message, a human facilitator, and an LLM facilitator—on a group decision-making task.
 
-This study experimentally compares different facilitation conditions (None, Message-only, Human, LLM) in group decision-making tasks. Participants worked in groups to select a host city for an international sporting event, with each participant holding unique information.
+## The Experiment
 
-## Experimental Design
+Groups of participants had to choose a host city for a fictional international sporting event. The twist: each participant held different facts about the candidate cities. To make a good decision, the group needed to actually share information rather than just vote on first impressions—a classic test of [[knowledge-base/glossary#Deliberative|deliberative]] quality.
 
-### Task
-Groups evaluated three fictional cities (Eldoron, Myloria, Cragnio) as potential hosts for an international sporting event. Each participant held different facts about the cities.
+The LLM facilitator (not specified which model, but likely GPT-4 class) prompted participants to share information, summarized what had been said, and kept discussion on track. Human facilitators did the same things, just... humanly.
 
-### Conditions
+## The Surprising Result
 
-| Condition | Description |
-|-----------|-------------|
-| **None** | No facilitation |
-| **Message** | Static facilitation message only |
-| **Human** | Human facilitator |
-| **LLM** | Large Language Model facilitator |
+**LLM facilitation significantly increased information sharing compared to all other conditions—including human facilitation.** Groups with the LLM facilitator surfaced more unique facts than groups with human facilitators, groups with just a static message, or groups with no facilitation at all.
 
-## Key Findings
+| Comparison | Difference | Significance |
+|------------|------------|--------------|
+| LLM vs None | +2.9 facts | p < 0.001 |
+| LLM vs Human | +2.47 facts | p < 0.001 |
+| LLM vs Message | +1.58 facts | p = 0.02 |
 
-### Information Sharing
+This doesn't mean LLMs are "better" facilitators—the task was specifically about information pooling, which plays to LLM strengths (tracking what's been said, identifying gaps). Other facilitation goals like building trust, managing emotions, or handling conflict might favor humans.
 
-LLM facilitation significantly increased information sharing compared to all other conditions:
+## The Acceptance Asymmetry
 
-| Comparison | Δ (difference) | t-statistic | p-value |
-|------------|----------------|-------------|---------|
-| LLM vs None | +2.9 | t(138) = 3.58 | p < 0.001 |
-| LLM vs Message | +1.58 | t(139) = 2.1 | p = 0.02 |
-| LLM vs Human | +2.47 | t(138) = 3.37 | p < 0.001 |
+An intriguing pattern emerged in how participants felt about future facilitation. People who experienced LLM facilitation were open to both LLM and human facilitation in future tasks. But people who experienced human facilitation became notably *less* interested in trying LLM facilitation.
 
-### Subjective Evaluations
+This suggests exposure matters. If people's first experience with AI facilitation is positive, they remain open to it. If they start with human facilitation, AI seems like a downgrade. For adoption, this implies AI facilitation might work better as an introduction than as a replacement.
 
-Participants rated their experience on 5-point scales:
+## What This Means for AI Facilitation
 
-**Group Dynamics (A-D):**
-- Ability to influence group decision
-- Ability to contribute to discussion
-- Productivity of discussion
-- Structured information collection
+The study supports a specific, limited claim: LLMs can help groups share more information during structured decision-making tasks. This is useful for contexts like [[knowledge-base/glossary#Deliberative|deliberative]] processes where information coverage matters.
 
-**Facilitator Effectiveness (E-H):**
-- Encouraged information sharing
-- Was not distracting
-- Helped summarize information
-- Kept group focused on task
+It doesn't tell us whether LLMs can handle more complex facilitation challenges—[[knowledge-base/glossary#Transformative|transformative]] conversations involving conflict, emotional processing, or relationship repair. The [[research/jigsaw-facilitation-ai-era|Jigsaw ethnographic study]] suggests these dimensions are where human facilitators see their irreplaceable value.
 
-### Preference Asymmetry
+## Connection to OFL
 
-An interesting asymmetry emerged in future facilitation preferences:
-- Participants initially with **LLM facilitation** were open to both LLM and human facilitation in the future
-- Participants initially with **human facilitation** were notably less inclined to consider future LLM facilitation
+For the [[evals/why-how-who-framework|Why-How-Who framework]], this study provides evidence on the "How" dimension: LLM facilitation with explicit prompting to share information increases the "information coverage" outcome. The experimental methodology could serve as a template for evaluating [[knowledge-base/concepts/ai-facilitation-approaches|AI facilitation approaches]].
 
-## Implications
+## Related Research
 
-### For LLM Facilitation Design
-- LLMs can effectively increase information coverage in groups
-- Structured facilitation prompts improve group outcomes
-- User acceptance may depend on initial exposure
-
-### For Human-AI Collaboration
-- LLM facilitation complements rather than replaces human facilitation
-- Different facilitation types suit different contexts
-- Hybrid approaches may be optimal
-
-## Relevance to OFL
-
-### Pattern Development
-- Provides experimental evidence for LLM facilitation effectiveness
-- Quantifies information sharing improvements
-- Identifies user preference patterns
-
-### Evaluation Framework
-- Offers validated subjective evaluation questions
-- Demonstrates experimental methodology for facilitation comparison
-- Provides baseline metrics for facilitation quality
-
-## See Also
-
-- [[research/ai-moderation-chatbots|AI Moderation & Chatbots]]
-- [[research/evaluation-facilitation-llm-era|Evaluation & Facilitation Survey]]
-- [[evals/why-how-who-framework|Why-How-Who Framework]]
+For more on AI facilitation systems, see [[research/agent-facilitates-crowd-discussion|D-agree]] (crowd-scale) and [[research/cueing-the-crowd|Cueing the Crowd]] (brainstorming cues). The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of LLM facilitation research.
