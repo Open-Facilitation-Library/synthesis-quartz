@@ -12,6 +12,10 @@ Literature and references supporting OFL development.
 |-------|---------|-------|
 | [[research/WHoW-Framework\|WHoW Framework]] | Chen, Frermann & Lau (2024) | Moderation analysis across domains |
 | [[research/fora-corpus\|Fora Corpus]] | Schroeder, Roy & Kabbara (2024) | Facilitated dialogue corpus & framework |
+| [[research/jigsaw-facilitation-ai-era\|Facilitation in the AI Era]] | Jigsaw/Google (2025) | Ethnographic study of 22 expert facilitators |
+| [[research/bringing-everyone-to-table\|Bringing Everyone to the Table]] | (2025) | LLM vs human facilitation experiment |
+| [[research/evaluation-facilitation-llm-era\|Evaluation & Facilitation Survey]] | Korre et al. (2025) | Comprehensive LLM facilitation survey |
+| [[research/generative-social-choice\|Generative Social Choice]] | Fish et al. (2025) | LLM-augmented democratic processes |
 
 ## Research Topics
 
