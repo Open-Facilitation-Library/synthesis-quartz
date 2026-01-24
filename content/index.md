@@ -20,7 +20,9 @@ Key papers and research topics supporting OFL development.
 |-------|-------------|
 | [[research/WHoW-Framework\|WHoW Framework]] | Cross-domain moderation analysis (Chen et al. 2024) |
 | [[research/fora-corpus\|Fora Corpus]] | 262 facilitated dialogues from MIT (Schroeder et al. 2024) |
+| [[research/agent-facilitates-crowd-discussion\|D-agree Platform]] | Automated facilitation agent at crowd scale (Ito et al. 2022) |
 | [[research/jigsaw-facilitation-ai-era\|Facilitation in the AI Era]] | Ethnographic study of 22 expert facilitators (Jigsaw 2025) |
+| [[research/cueing-the-crowd\|Cueing the Crowd]] | LLM conversational cues for brainstorming (Rayan et al. 2025) |
 | [[research/evaluation-facilitation-llm-era\|LLM Facilitation Survey]] | Comprehensive survey on LLM-based facilitation (Korre et al. 2025) |
 | [[research/generative-social-choice\|Generative Social Choice]] | LLM-augmented democratic processes (Fish et al. 2025) |
 
