@@ -1,5 +1,5 @@
 ---
-title: Deliberative Mini-Publics Research
+title: Deliberative Mini-Publics
 tags:
   - research
   - deliberation
@@ -7,134 +7,58 @@ tags:
   - mini-publics
 ---
 
-# Deliberative Mini-Publics Research
+# Deliberative Mini-Publics
 
-Research on small-scale deliberative forums and the role of facilitation in democratic processes.
+*Research on citizen deliberation forums and facilitation's role in democratic processes*
 
 ---
 
-## Overview
+What if you could give a representative sample of citizens the time, information, and structure to genuinely deliberate on policy? That's the idea behind deliberative mini-publics—small groups of randomly selected citizens who work through complex issues with professional [[knowledge-base/glossary#Facilitation|facilitation]].
 
-Deliberative mini-publics are small groups of randomly selected citizens who deliberate on policy issues. Key research explores how facilitation affects deliberation quality and outcomes.
+The format has been used for everything from constitutional reform in Ireland to infrastructure planning in Australia. And the research on these processes offers some of the clearest evidence we have about what facilitation accomplishes.
 
-## Key Research
+## The Foundational Model
 
-### Landwehr (2014) - Impartial Intermediaries
+[James Fishkin's deliberative polling](https://cdd.stanford.edu/what-is-deliberative-polling/), developed at Stanford starting in the 1990s, established the template: random sampling for representativeness, balanced briefing materials, trained facilitators for small group discussions, and pre/post opinion measurement to track what changes.
 
-**"Facilitating deliberation: The role of impartial intermediaries in deliberative mini-publics"**
+The facilitator's role is central but constrained. They're supposed to be **impartial intermediaries**—managing process without steering content. [Landwehr (2014)](https://doi.org/10.1017/CBO9781107323230.016) explores this tension: facilitators must actively guide discussion while remaining neutral about outcomes. It's harder than it sounds.
 
-Core findings:
-- Facilitators serve as **impartial intermediaries** between citizens and institutions
-- Neutrality is essential but challenging to maintain
-- Facilitation quality directly impacts deliberation outcomes
+## When Neutrality Fails
 
-| Facilitator Role | Function |
-|-----------------|----------|
-| Process guide | Manage discussion flow |
-| Neutrality keeper | Avoid bias toward outcomes |
-| Participation balancer | Ensure all voices heard |
-| Information provider | Offer relevant context |
+[Spada & Vreeland (2013)](https://doi.org/10.1017/S0003055413000245) asked the uncomfortable question: what happens when moderators *aren't* neutral? Their experiments found that non-neutral moderation affects outcomes in predictable ways—facilitators can, intentionally or not, tip the scales.
 
-### Spada & Vreeland (2013) - Moderator Effects
+This matters for AI facilitation. We often assume AI would be "more neutral" than humans, free from personal agendas. But AI systems encode biases from training data and design choices. The question isn't whether AI is neutral, but *which* biases it carries.
 
-**"Who moderates the moderators? The effect of non-neutral moderators in deliberative decision making"**
+## What Good Deliberation Looks Like
 
-Key question: What happens when moderators aren't neutral?
+Mini-publics research has developed quality indicators that any facilitation (human or AI) could target:
 
-Findings:
-- Non-neutral moderation affects outcomes
-- Participant awareness of bias varies
-- Accountability mechanisms needed
+**Justification** — participants give reasons for their positions, not just assertions.
 
-### Gerber et al. (2018) - EuroPolis
+**Reciprocity** — people actually respond to each other's arguments rather than talking past one another.
 
-**"Deliberative Abilities and Influence in a Transnational Deliberative Poll"**
+**Respect** — disagreement remains civil, with opposing views treated seriously.
 
-Study of deliberative poll across European countries:
-- Examined participant influence patterns
-- Measured deliberative skill development
-- Analyzed cross-cultural facilitation challenges
+**Constructiveness** — discussion builds toward shared understanding rather than entrenching division.
 
-### Fishkin (1997) - Deliberative Polling
+These map onto dimensions in the [[research/evaluation-facilitation-llm-era|Korre et al. taxonomy]]: structure & logic, social dynamics, and engagement. The mini-publics tradition provides normative grounding for what those dimensions should achieve.
 
-Foundational work on structured citizen deliberation:
-- Random sampling for representativeness
-- Balanced briefing materials
-- Trained facilitators for small groups
-- Pre/post opinion measurement
+## The Scale Problem
 
-## Facilitation in Mini-Publics
+Traditional mini-publics involve perhaps 100-500 participants at most. Getting people together in person, paying for professional facilitators, providing materials—it's expensive.
 
-### Core Challenges
+AI facilitation could change the economics. The [[research/agent-facilitates-crowd-discussion|D-agree platform]] demonstrates AI facilitating thousands of participants simultaneously. [[research/generative-social-choice|Generative social choice]] suggests ways to synthesize opinions at scale while maintaining representation guarantees.
 
-1. **Maintaining neutrality** while guiding discussion
-2. **Balancing participation** across different personality types
-3. **Handling power dynamics** and status differences
-4. **Managing time** while allowing deep exploration
-5. **Bridging expertise gaps** between citizens and experts
+But scale brings risks. Human facilitators build relationships with participants, notice subtle dynamics, exercise judgment in ambiguous situations. These qualities don't scale easily. A system facilitating a million conversations simultaneously is doing something qualitatively different from a human working with a dozen people—even if the individual interactions look similar.
 
-### Best Practices
+## Key Datasets
 
-| Practice | Rationale |
-|----------|-----------|
-| Trained facilitators | Consistency and quality |
-| Clear ground rules | Psychological safety |
-| Structured phases | Ensure coverage |
-| Anonymous input options | Reduce hierarchy effects |
-| Regular check-ins | Maintain inclusion |
+| Dataset | Description |
+|---------|-------------|
+| [EuroPolis](https://doi.org/10.1017/S0007123417000059) | Transcripts from a transnational European deliberative poll |
+| [[research/fora-corpus\|Fora]] | 262 facilitated dialogues from US community discussions |
+| America in One Room | Large-scale US deliberative poll |
 
-## AI Facilitation Potential
+## Related Research
 
-### Opportunities
-
-- **Scale**: AI can facilitate many small groups simultaneously
-- **Consistency**: Same facilitation approach across groups
-- **Neutrality**: Potentially less susceptible to certain biases
-- **Documentation**: Automatic recording and synthesis
-
-### Risks
-
-- Loss of human connection and empathy
-- Technical barriers to participation
-- Opacity in facilitation decisions
-- Potential for manipulation at scale
-
-## Related Datasets
-
-| Dataset | Focus |
-|---------|-------|
-| EuroPolis | European deliberative poll transcripts |
-| Fora Corpus | US community facilitated dialogues |
-| America in One Room | US deliberative poll |
-
-## Key Concepts
-
-### Deliberative Quality Indicators
-
-From mini-publics research:
-- **Justification**: Reasons given for positions
-- **Reciprocity**: Responding to others' arguments
-- **Respect**: Civil treatment of opposing views
-- **Constructiveness**: Building toward shared understanding
-
-### Scalability Dimensions
-
-From Democracy Next framework:
-- **Scaling out**: More participants
-- **Scaling up**: Higher governance levels
-- **Scaling across**: More processes
-- **Scaling deep**: Greater institutionalization
-- **Scaling in**: Higher quality
-
-## Key References
-
-- Landwehr, C. (2014). Facilitating deliberation: The role of impartial intermediaries
-- Spada, P. & Vreeland, J.R. (2013). Who moderates the moderators?
-- Gerber, M. et al. (2018). Deliberative Abilities and Influence in EuroPolis
-- Fishkin, J.S. (1997). The Voice of the People
-
-## See Also
-
-- [[research/fora-corpus|Fora Corpus]]
-- [[knowledge-base/concepts/conversation-types|Conversation Types]]
-- [[evals/why-how-who-framework|OFL Evaluation Framework]]
+For facilitation practices in deliberative contexts, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[research/fora-corpus|Fora corpus]] provides empirical baselines on facilitator behavior. For AI approaches to democratic processes, see [[research/generative-social-choice|Generative Social Choice]].

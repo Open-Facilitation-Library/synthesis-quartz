@@ -1,133 +1,57 @@
 ---
-title: Facilitation Techniques Research
+title: Facilitation Techniques
 tags:
   - research
   - facilitation
   - techniques
 ---
 
-# Facilitation Techniques Research
+# Facilitation Techniques
 
-A synthesis of research on facilitation techniques from education, deliberation, and AI moderation literature.
+*Synthesis from education, deliberation, and AI research*
 
 ---
 
-## Core Technique Categories
+What do facilitators actually do, move by move? This page synthesizes research that tries to answer that question—cataloging the interventions skilled facilitators make and measuring which ones work.
 
-### From Chung (2011) - Education Discussion Fora
+## The Basic Repertoire
 
-Nine facilitation techniques that promote critical thinking:
+Across different domains, the same techniques keep appearing. [Chung (2011)](https://doi.org/10.1007/s11412-011-9121-x) identified nine core moves in educational discussion forums:
 
-| Technique | Description |
-|-----------|-------------|
-| **Summarization** | Synthesizing participant contributions |
-| **Making connections** | Linking ideas across participants |
-| **Providing opinions** | Sharing facilitator perspective |
-| **Inviting feedback** | Soliciting reactions and responses |
-| **Asking for elaboration** | Probing for deeper explanation |
-| **Asking for clarification** | Seeking clearer understanding |
-| **Facilitating argumentation** | Supporting reasoned debate |
-| **Conversation stimulation** | Encouraging engagement |
-| **Conflict resolution** | Managing disagreements |
+**Summarization** — synthesizing what participants have said. **Making connections** — linking one person's point to another's. **Providing opinions** — sharing the facilitator's own perspective (more common than you might expect). **Inviting feedback** — soliciting reactions. **Asking for elaboration** — probing for depth. **Asking for clarification** — ensuring understanding. **Facilitating argumentation** — supporting reasoned debate. **Conversation stimulation** — encouraging engagement when things go quiet. **Conflict resolution** — managing disagreements.
 
-### From Kolb et al. (2008) - Facilitator Competencies
+These aren't exotic skills. They're the bread-and-butter moves that competent facilitators deploy almost unconsciously. The value of making them explicit is that it enables both training and automation.
 
-Three main functions of facilitation:
+## Three Functions, Not One
 
-1. **Manage group discussions** - Ensure positive participant experience
-2. **Host productive processes** - Promote valuable dialogue results
-3. **Use appropriate techniques** - Aid group interaction and goal accomplishment
+[Cheung & Hew (2010)](https://doi.org/10.1016/j.compedu.2010.04.001) offer a useful higher-level framing. Facilitation serves three distinct functions:
 
-### From Cheung & Hew (2010) - Habits of Mind
+**Social** — building atmosphere and connection. Creating [[knowledge-base/glossary#Psychological Safety|psychological safety]] so people feel able to speak honestly.
 
-Three functional roles:
+**Organizational** — managing process and logistics. Who speaks when, how long discussions run, keeping things on track.
 
-| Role | Focus |
-|------|-------|
-| **Social** | Building atmosphere and connections |
-| **Organizational** | Managing process and logistics |
-| **Intellectual** | Advancing content and understanding |
+**Intellectual** — advancing content and understanding. Asking the probing question that opens new territory, connecting disparate points into insight.
 
-## Facilitative Moves Research
+Most facilitators lean toward one or two of these. AI systems tend to be better at organizational functions and struggle with social ones—a pattern worth keeping in mind for [[knowledge-base/concepts/ai-facilitation-approaches|hybrid human-AI facilitation]].
 
-### Motozawa et al. (2021) - Children's Intercultural Collaboration
+## Which Techniques Can AI Handle?
 
-Key finding: **"Request" utterances by facilitators encourage participant response**
+The [[research/fora-corpus|Fora corpus]] research tested GPT-4 and fine-tuned RoBERTa on detecting facilitation techniques. The results suggest some techniques are more automatable than others:
 
-Facilitative moves have measurable impact on:
-- Outcome achievement
-- Participant engagement
-- Response rates
+**Summarization** — LLMs excel here. This is arguably their core competency.
 
-### Vasodavan et al. (2020) - E-moderation Skills
+**Making connections** — GPT-4 dramatically outperforms traditional classifiers (F1 0.78 vs 0.18 for RoBERTa). The task requires the kind of semantic reasoning that language models handle well.
 
-Patterns of online interactions for knowledge construction:
-- Structured moderation improves learning outcomes
-- E-moderators need different skills than face-to-face
-- Asynchronous contexts require adapted techniques
+**Follow-up questions** — Both approaches perform moderately (F1 ~0.65). Tractable but not trivial.
 
-## Technique Detection with AI
-
-### GPT-4 Performance (Schroeder et al., 2024)
-
-| Technique | F1 Score | Notes |
-|-----------|----------|-------|
-| Follow-up questions | 0.63 | Context helps |
-| Make connections | 0.78 | Few-shot best |
-| Personal story detection | Varies | Requires context |
-
-### RoBERTa Fine-tuning
-
-- Works well for frequent patterns
-- Struggles with rare techniques (e.g., "make connections" F1=0.18)
-- Requires substantial training data
+**Conflict resolution** — Generally requires human judgment. The stakes are too high and the signals too subtle for current AI.
 
 ## Technique-Outcome Relationships
 
-### Dillard (2013) - Public Deliberations
+Does it matter which techniques you use? [Dillard (2013)](https://doi.org/10.1080/10570314.2012.744459) found that facilitation styles correlate with deliberation trajectories. Directive styles lead to faster convergence. Non-directive styles enable broader exploration. The "right" choice depends on what you're trying to achieve—which is why the [[evals/why-how-who-framework|Why-How-Who framework]] starts with purpose.
 
-Finding: **Facilitation types correlate with deliberation trajectories**
+[Motozawa et al. (2021)](https://doi.org/10.1109/IIAI-AAI52587.2021.00017) offer a more specific finding: "Request" utterances by facilitators reliably encourage participant response. If you want someone to contribute, ask them directly.
 
-Different styles lead to different outcomes:
-- Directive styles → faster convergence
-- Non-directive styles → broader exploration
-- Mixed styles → balanced deliberation
+## Related Research
 
-### Lim et al. (2011) - Critical Thinking
-
-Student facilitation techniques in asynchronous discussion:
-- Peer facilitation can be effective
-- Technique training improves outcomes
-- Critical thinking requires specific prompts
-
-## Application to AI Facilitation
-
-### Automatable Techniques
-
-| Technique | AI Suitability | Notes |
-|-----------|---------------|-------|
-| Summarization | High | LLMs excel here |
-| Making connections | High | Semantic similarity |
-| Follow-up questions | Medium | Requires context understanding |
-| Conflict resolution | Low | Needs human judgment |
-
-### Human-Required Techniques
-
-- Emotional support requiring authenticity
-- High-stakes conflict mediation
-- Cultural context interpretation
-- Building genuine rapport
-
-## Key References
-
-- Chung, L.S. (2011). Critical Thinking in Asynchronous Online Discussion
-- Kolb, J.A., Jin, S. & Song, J.H. (2008). A model of small group facilitator competencies
-- Cheung, W.S. & Hew, K.F. (2010). Examining facilitators' habits of mind
-- Motozawa, M. et al. (2021). Conversation Analysis for Facilitation in Children's Intercultural Collaboration
-- Vasodavan, V. et al. (2020). E-moderation skills in discussion forums
-
-## See Also
-
-- [[research/fora-corpus|Fora Corpus]] - Empirical data on technique usage
-- [[research/WHoW-Framework|WHoW Framework]] - Analyzing moderation acts
-- [[evals/why-how-who-framework|OFL Evaluation Framework]]
+The [[research/fora-corpus|Fora corpus]] provides empirical data on how often these techniques appear in real facilitated conversations. The [[research/WHoW-Framework|WHoW Framework]] offers a taxonomy for analyzing moderation acts. For how AI systems can implement these techniques, see [[research/agent-facilitates-crowd-discussion|D-agree]] and [[research/cueing-the-crowd|Cueing the Crowd]].
