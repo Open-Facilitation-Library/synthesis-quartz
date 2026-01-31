@@ -69,7 +69,14 @@ ConvoKit data format:
 - `conversations.json` — conversation-level metadata (collection, annotation status, etc.)
 - `index.json` — schema documentation
 
-This format is a natural export target for OFL's transcript processor, enabling our WHoW-annotated benchmarks to be loaded alongside Fora data in the same analysis pipeline.
+ConvoKit also includes built-in analysis transformers that would work on our data once exported:
+- **Politeness Strategies** — lexical/parse-based politeness scoring (facilitator tone measurement)
+- **Linguistic Coordination** — measures whether participants mirror facilitator language (rapport signal)
+- **CRAFT Forecasting** — predicts conversation derailment (evaluates whether facilitation prevents breakdown)
+- **Redirection detection** — built-in tool for what our WHoW `redirect` tag captures
+- **Linguistic Diversity** — quantifies speaker variation within conversations
+
+This format is a natural export target for OFL's transcript processor, enabling our WHoW-annotated benchmarks to be loaded alongside Fora data in the same analysis pipeline. Our pipeline handles the upstream problem ConvoKit doesn't (raw transcript → structured annotated corpus); ConvoKit handles the downstream analysis.
 
 ## Access
 
