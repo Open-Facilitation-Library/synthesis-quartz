@@ -40,10 +40,20 @@ The [evals repo](https://github.com/Open-Facilitation-Library/evals) contains:
 | `prompts/` | LLM prompts for automated dialogue act tagging |
 | `benchmarks/` | Reference datasets and methodology signatures |
 
+## Transcript Processor
+
+An automated pipeline that takes raw facilitation transcripts and produces annotated benchmarks with WHoW tags and conversation signatures. Uses gpt-4o-mini for classification.
+
+Pipeline: **parse** → **anonymize** → **annotate** → **compute signature** → **render benchmark**
+
+See the [evals repo](https://github.com/Open-Facilitation-Library/evals) for usage.
+
 ## Related Research
 
+- [[research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues with human annotations for facilitation strategies (MIT, ACL 2024). The closest academic dataset to OFL evals — complementary annotation schemes
 - [[research/WHoW-Framework|WHoW Framework]] — Academic framework for moderation analysis (Chen et al. 2024)
 - [[research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Comprehensive survey on evaluating LLM-based facilitation (Korre et al. 2025)
+- [ConvoKit](https://convokit.cornell.edu/) — Cornell toolkit for conversational analysis with standardized corpus format (30+ datasets)
 
 ## Related Resources
 

@@ -59,9 +59,31 @@ Fora provides the empirical ground truth that frameworks like [[evals/why-how-wh
 
 For training AI facilitators, the corpus offers both positive examples (techniques that appear in successful facilitation) and implicit negative examples (techniques that could be used but aren't). The annotation scheme could also inform [[research/WHoW-Framework|moderation analysis]] by providing facilitation-specific categories beyond generic dialogue acts.
 
+## ConvoKit Integration
+
+Fora is available as a [ConvoKit](https://convokit.cornell.edu/) corpus — Cornell's standard format for conversational data, used by 30+ datasets. The format stores utterances as JSONL with speaker, conversation, and metadata objects, making it interoperable with a large ecosystem of analysis tools.
+
+ConvoKit data format:
+- `utterances.jsonl` — one JSON object per turn (id, speaker, conversation_id, reply_to, timestamp, text, meta)
+- `speakers.json` — speaker metadata (facilitator status, etc.)
+- `conversations.json` — conversation-level metadata (collection, annotation status, etc.)
+- `index.json` — schema documentation
+
+This format is a natural export target for OFL's transcript processor, enabling our WHoW-annotated benchmarks to be loaded alongside Fora data in the same analysis pipeline.
+
+## Access
+
+Corpus access is managed through MIT Center for Constructive Communication:
+- Request form at [github.com/schropes/fora-corpus](https://github.com/schropes/fora-corpus)
+- ~1 week processing time
+- Subject to Responsible AI License (RAIL) terms
+- Includes transcripts, annotations, conversation guides, and collection metadata
+
 ## Resources
 
 - [Paper at ACL Anthology](https://aclanthology.org/2024.acl-long.754/)
+- [GitHub — Corpus access](https://github.com/schropes/fora-corpus)
+- [ConvoKit — Fora documentation](https://convokit.cornell.edu/documentation/fora.html)
 - [Cortico](https://cortico.ai/) — partner organization building tools for facilitated dialogue
 - [MIT Center for Constructive Communication](https://www.media.mit.edu/groups/constructive-communication/overview/)
 
