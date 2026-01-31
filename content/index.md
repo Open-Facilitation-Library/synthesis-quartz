@@ -40,13 +40,17 @@ Core concepts and definitions shared across OFL projects.
 
 ## Evaluation Frameworks
 
-Tools for assessing facilitation quality.
+Tools for assessing facilitation quality through structured comparison. Source: [evals repo](https://github.com/Open-Facilitation-Library/evals).
 
-- [[evals/why-how-who-framework\|Why-How-Who Framework]] - Based on Cooperative AI research
+- [[evals/why-how-who-framework\|Why-How-Who Framework]] — Encode, compare, and evaluate facilitation methodologies
+- [[evals/index\|Conversation Signatures]] — Compute measurable similarity to reference methodologies
+
+[[evals/index|Browse evaluation frameworks →]]
 
 ## Related Repositories
 
 - [skills](https://github.com/Open-Facilitation-Library/skills) - Machine-readable facilitation patterns
+- [evals](https://github.com/Open-Facilitation-Library/evals) - Evaluation frameworks and conversation signatures
 - [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) - Opinion exposure algorithms and deliberation tools
 
 ## Support OFL
