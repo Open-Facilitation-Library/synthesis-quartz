@@ -53,7 +53,7 @@ See the [evals repo](https://github.com/Open-Facilitation-Library/evals) for usa
 - [[research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues with human annotations for facilitation strategies (MIT, ACL 2024). The closest academic dataset to OFL evals — complementary annotation schemes
 - [[research/WHoW-Framework|WHoW Framework]] — Academic framework for moderation analysis (Chen et al. 2024)
 - [[research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Comprehensive survey on evaluating LLM-based facilitation (Korre et al. 2025)
-- [ConvoKit](https://convokit.cornell.edu/) — Cornell Python toolkit for conversational analysis with standardized corpus format (30+ datasets). Built-in analysis transformers relevant to facilitation: Politeness Strategies (facilitator tone), Linguistic Coordination (rapport/mirroring signals), CRAFT Forecasting (derailment prediction), Redirection detection, Linguistic Diversity (speaker variation). Our pipeline handles the upstream problem ConvoKit doesn't (raw transcript → structured corpus); ConvoKit handles downstream analysis
+- [[research/convokit-datasets|ConvoKit Datasets]] — Cornell Python toolkit with 30+ conversational corpora and built-in analysis transformers (Politeness Strategies, Linguistic Coordination, CRAFT Forecasting, Redirection detection, Linguistic Diversity). Priority datasets for OFL: DeliData (group deliberation), IQ2 (moderated debate with opinion shift), Conversations Gone Awry (derailment). Our pipeline handles the upstream problem ConvoKit doesn't (raw transcript → structured corpus); ConvoKit handles downstream analysis
 
 ## Related Resources
 

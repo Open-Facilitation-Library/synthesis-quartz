@@ -30,7 +30,8 @@ Literature and references supporting OFL development.
 
 | Dataset | Source | Description |
 |---------|--------|-------------|
-| Fora | MIT CCC | 262 facilitated dialogues, 39,911 turns |
+| [[research/fora-corpus\|Fora]] | MIT CCC | 262 facilitated dialogues, 39,911 turns |
+| [[research/convokit-datasets\|ConvoKit Datasets]] | Cornell | 30+ conversational corpora (deliberation, debate, negotiation, derailment) |
 | EuroPolis | Gerber et al. | European deliberative poll transcripts |
 | WHoW Dataset | U. Melbourne | 5,657 human + 15,494 GPT-4o annotated sentences |
 

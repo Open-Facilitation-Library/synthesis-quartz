@@ -96,4 +96,4 @@ Corpus access is managed through MIT Center for Constructive Communication:
 
 ## Related Research
 
-For analysis of moderation (a related but distinct practice), see the [[research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on facilitation, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a taxonomy of discussion quality dimensions that could be measured against Fora data.
+For analysis of moderation (a related but distinct practice), see the [[research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on facilitation, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a taxonomy of discussion quality dimensions that could be measured against Fora data. For other ConvoKit datasets relevant to facilitation, see [[research/convokit-datasets|ConvoKit Datasets]].
