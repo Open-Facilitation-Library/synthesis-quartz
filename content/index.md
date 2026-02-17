@@ -47,11 +47,20 @@ Tools for assessing facilitation quality through structured comparison. Source: 
 
 [[evals/index|Browse evaluation frameworks →]]
 
+## OFL Architecture
+
+The Open Facilitation Library has three complementary layers:
+
+- **Patterns** (this knowledge base) — abstract facilitation methodologies: cross-pollination, Delphi, retrospectives, and more. Described using the Why-How-Who framework.
+- **[Agent Skills](https://github.com/Open-Facilitation-Library/skills)** — executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for AI platforms like [Harmonica](https://harmonica.chat) or [OpenClaw](https://github.com/openclaw).
+- **[[knowledge-base/workflows|Workflows]]** — how real platforms orchestrate agents into complete facilitation systems. 14 platforms documented with agent roles, participant models, and stage pipelines.
+
 ## Related Repositories
 
-- [skills](https://github.com/Open-Facilitation-Library/skills) - Machine-readable facilitation patterns
-- [evals](https://github.com/Open-Facilitation-Library/evals) - Evaluation frameworks and conversation signatures
-- [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) - Opinion exposure algorithms and deliberation tools
+- [skills](https://github.com/Open-Facilitation-Library/skills) — Executable agent skills (Agent Skills spec)
+- [workflows](https://github.com/Open-Facilitation-Library/workflows) — Agent workflow definitions for 14 AI facilitation platforms
+- [evals](https://github.com/Open-Facilitation-Library/evals) — Evaluation frameworks and conversation signatures
+- [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) — Opinion exposure algorithms
 
 ## Support OFL
 

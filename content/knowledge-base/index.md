@@ -15,6 +15,7 @@ This knowledge base serves as shared vocabulary for:
 
 ## Contents
 
-- [[knowledge-base/glossary|Glossary]] - Term definitions
-- [[knowledge-base/concepts/conversation-types|Conversation Types]] - Deliberative, generative, transformative
-- [[knowledge-base/concepts/ai-facilitation-approaches|AI Facilitation Approaches]] - Fine-tuning vs inference-time
+- [[knowledge-base/glossary|Glossary]] — Term definitions
+- [[knowledge-base/concepts/conversation-types|Conversation Types]] — Deliberative, generative, transformative
+- [[knowledge-base/concepts/ai-facilitation-approaches|AI Facilitation Approaches]] — Fine-tuning vs inference-time
+- [[knowledge-base/workflows|AI Facilitation Workflows]] — 14 real platforms documented with agent architectures and stage pipelines
