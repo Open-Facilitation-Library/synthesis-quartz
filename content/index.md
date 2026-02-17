@@ -1,10 +1,10 @@
 ---
-title: OFL Synthesis
+title: Open Facilitation Library
 ---
 
-# Welcome to OFL Synthesis
+# Open Facilitation Library
 
-Knowledge base, evaluation frameworks, and research for the [Open Facilitation Library](https://github.com/Open-Facilitation-Library).
+Open standards for AI-assisted facilitation and deliberative democracy. Research, patterns, agent skills, and workflow definitions — all open source.
 
 ## Seminars
 

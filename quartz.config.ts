@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "OFL Synthesis",
-    pageTitleSuffix: " | Open Facilitation Library",
+    pageTitle: "Open Facilitation Library",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "open-facilitation-library.github.io/synthesis-quartz",
+    baseUrl: "wiki.openfac.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
