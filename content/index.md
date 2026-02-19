@@ -8,7 +8,7 @@ Open standards for AI-assisted facilitation and deliberative democracy. Research
 
 The OFL seminar series brings together experts in facilitation, deliberative democracy, and AI-assisted dialogue.
 
-[[seminars/index|Browse all seminars]] | Recent: [[seminars/jorim-dembrane|Jorim Dembrane]], [[seminars/cecile-green|Cecile Green]], [[seminars/andy-paice|Andy Paice]], [[seminars/alice-siu|Alice Siu]], [[seminars/jigsaw|Jigsaw]], [[seminars/martin-carcasson|Martin Carcasson]]
+[[seminars/index|Browse all seminars]] | Recent: [[seminars/jorim-dembrane|Jorim Theuns]], [[seminars/cecile-green|Cecile Green]], [[seminars/andy-paice|Andy Paice]], [[seminars/alice-siu|Alice Siu]], [[seminars/jigsaw|Jigsaw]], [[seminars/martin-carcasson|Martin Carcasson]]
 
 ## Research
 

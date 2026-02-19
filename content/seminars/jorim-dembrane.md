@@ -1,5 +1,5 @@
 ---
-title: "Jorim (Dembrane): Echo Tool & Real-time Summarization"
+title: "Jorim Theuns (Dembrane): Echo Tool & Real-time Summarization"
 tags:
   - seminar
   - tools
@@ -7,10 +7,10 @@ tags:
 date: 2025-10-09
 ---
 
-# Jorim (Dembrane): Echo Tool & Real-time Summarization
+# Jorim Theuns (Dembrane): Echo Tool & Real-time Summarization
 
 **Date**: October 9, 2025
-**Speaker**: Jorim, Dembrane
+**Speaker**: Jorim Theuns, Dembrane
 **Duration**: ~53 minutes
 
 ---
