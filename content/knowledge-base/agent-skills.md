@@ -8,7 +8,7 @@ tags:
 
 # Agent Skills Design Guide
 
-Key principles and practical guidance from Anthropic's [Agent Skills specification](https://agentskills.io/specification) and [blog post](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills) (December 2025).
+Key principles and practical guidance from Anthropic's [Agent Skills specification](https://agentskills.io/specification) and [blog post](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills) (October 2025).
 
 This document captures the design philosophy behind the Agent Skills spec to guide OFL's conversion of WHoW facilitation patterns into executable agent skills.
 
