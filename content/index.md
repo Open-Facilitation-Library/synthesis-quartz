@@ -2,15 +2,13 @@
 title: Open Facilitation Library
 ---
 
-# Open Facilitation Library
-
 Open standards for AI-assisted facilitation and deliberative democracy. Research, patterns, agent skills, and workflow definitions — all open source.
 
 ## Seminars
 
 The OFL seminar series brings together experts in facilitation, deliberative democracy, and AI-assisted dialogue.
 
-[[seminars/index|Browse all seminars]] | Recent: [[seminars/alice-siu|Alice Siu]], [[seminars/jigsaw|Jigsaw]], [[seminars/martin-carcasson|Martin Carcasson]]
+[[seminars/index|Browse all seminars]] | Recent: [[seminars/jorim-dembrane|Jorim Dembrane]], [[seminars/cecile-green|Cecile Green]], [[seminars/andy-paice|Andy Paice]], [[seminars/alice-siu|Alice Siu]], [[seminars/jigsaw|Jigsaw]], [[seminars/martin-carcasson|Martin Carcasson]]
 
 ## Research
 
@@ -25,6 +23,8 @@ Key papers and research topics supporting OFL development.
 | [[research/cueing-the-crowd\|Cueing the Crowd]] | LLM conversational cues for brainstorming (Rayan et al. 2025) |
 | [[research/evaluation-facilitation-llm-era\|LLM Facilitation Survey]] | Comprehensive survey on LLM-based facilitation (Korre et al. 2025) |
 | [[research/generative-social-choice\|Generative Social Choice]] | LLM-augmented democratic processes (Fish et al. 2025) |
+| [[research/ai-moderation-chatbots\|AI Moderation Chatbots]] | AI moderation and chatbot facilitation |
+| [[research/convokit-datasets\|ConvoKit Datasets]] | Datasets for facilitation research |
 
 **More:** [[research/bringing-everyone-to-table|LLM vs Human Facilitation]] | [[research/facilitation-techniques|Techniques]] | [[research/deliberative-mini-publics|Mini-Publics]] | [[research/storytelling-deliberation|Storytelling]]
 
@@ -37,6 +37,8 @@ Core concepts and definitions shared across OFL projects.
 - [[knowledge-base/glossary\|Glossary]] - Term definitions
 - [[knowledge-base/concepts/conversation-types\|Conversation Types]] - Deliberative, generative, transformative
 - [[knowledge-base/concepts/ai-facilitation-approaches\|AI Facilitation Approaches]] - Fine-tuning vs inference-time
+- [[knowledge-base/agent-skills\|Agent Skills Design Guide]] - Principles for building executable facilitation skills
+- [[knowledge-base/workflows\|Workflows]] - How 14 platforms orchestrate AI facilitation agents
 
 ## Evaluation Frameworks
 
@@ -47,26 +49,24 @@ Tools for assessing facilitation quality through structured comparison. Source: 
 
 [[evals/index|Browse evaluation frameworks →]]
 
-## OFL Architecture
+## Architecture
 
-The Open Facilitation Library has three complementary layers:
+Three complementary layers:
 
 - **Patterns** (this knowledge base) — abstract facilitation methodologies: cross-pollination, Delphi, retrospectives, and more. Described using the Why-How-Who framework.
-- **[Agent Skills](https://github.com/Open-Facilitation-Library/skills)** — executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for AI platforms like [Harmonica](https://harmonica.chat) or [OpenClaw](https://github.com/openclaw).
+- **[[knowledge-base/agent-skills|Agent Skills]]** — executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for AI platforms like [Harmonica](https://harmonica.chat) or [OpenClaw](https://github.com/openclaw). Source: [skills repo](https://github.com/Open-Facilitation-Library/skills).
 - **[[knowledge-base/workflows|Workflows]]** — how real platforms orchestrate agents into complete facilitation systems. 14 platforms documented with agent roles, participant models, and stage pipelines.
 
-## Related Repositories
+## Repositories
 
 - [skills](https://github.com/Open-Facilitation-Library/skills) — Executable agent skills (Agent Skills spec)
 - [workflows](https://github.com/Open-Facilitation-Library/workflows) — Agent workflow definitions for 14 AI facilitation platforms
 - [evals](https://github.com/Open-Facilitation-Library/evals) — Evaluation frameworks and conversation signatures
 - [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) — Opinion exposure algorithms
 
-## Support OFL
+## Support
 
-The Open Facilitation Library is a community-driven project that needs your support to continue developing open standards for AI-assisted facilitation.
-
-**[Donate on Giveth](https://giveth.io/project/open-facilitation-library)** - Help fund research, development, and community building.
+**[Donate on Giveth](https://giveth.io/project/open-facilitation-library)** — Help fund research, development, and community building.
 
 ## Subscribe
 
