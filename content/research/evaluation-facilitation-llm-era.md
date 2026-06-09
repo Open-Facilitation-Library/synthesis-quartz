@@ -16,6 +16,8 @@ tags:
 
 If you want to build an AI facilitator, what should it actually measure and respond to? This survey from [Athens University of Economics](https://www.aueb.gr/en) and [INSEAD](https://www.insead.edu/) synthesizes research from NLP and social science to create a taxonomy of discussion quality dimensions—and maps which ones LLMs can currently address.
 
+> **See also:** [[evals/weval|weval]] — an open, CC0 platform that operationalizes much of this taxonomy as runnable, judge-scored evals.
+
 ## The Taxonomy
 
 The survey organizes discussion quality into four broad areas:
