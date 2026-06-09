@@ -2,7 +2,7 @@
 title: Open Facilitation Library
 ---
 
-Open standards for AI-assisted facilitation and deliberative democracy. Research, patterns, agent skills, and workflow definitions — all open source.
+Open standards for AI-assisted facilitation and deliberative democracy: portable method specs, plus the research and reference behind them — all open source.
 
 ## Seminars
 
@@ -37,8 +37,16 @@ Core concepts and definitions shared across OFL projects.
 - [[knowledge-base/glossary\|Glossary]] - Term definitions
 - [[knowledge-base/concepts/conversation-types\|Conversation Types]] - Deliberative, generative, transformative
 - [[knowledge-base/concepts/ai-facilitation-approaches\|AI Facilitation Approaches]] - Fine-tuning vs inference-time
-- [[knowledge-base/agent-skills\|Agent Skills Design Guide]] - Principles for building executable facilitation skills
 - [[knowledge-base/workflows\|Workflows]] - How 14 platforms orchestrate AI facilitation agents
+
+## Architecture
+
+OFL's core artifact is the **method spec**: a portable, forkable definition of a facilitation method that any capable runtime can execute (Harmonica is the reference implementation). Each method spec has two halves:
+
+- **A protocol** — the method itself, as a forkable spec: its stages, roles, facilitator prompts, and what carries between them. Fork it, adapt it, run it on any capable runtime.
+- **Evals** — how you know it ran well: rubrics scored against the conversation, interoperable with [weval](https://weval.org)'s open eval format.
+
+The rest of the library is the research and reference these specs draw on — abstract **patterns** (facilitation methodologies described with the Why-How-Who framework) and **workflows** (how 14 real platforms orchestrate AI facilitation agents today).
 
 ## Evaluation Frameworks
 
@@ -49,17 +57,8 @@ Tools for assessing facilitation quality through structured comparison. Source: 
 
 [[evals/index|Browse evaluation frameworks →]]
 
-## Architecture
-
-Three complementary layers:
-
-- **Patterns** (this knowledge base) — abstract facilitation methodologies: cross-pollination, Delphi, retrospectives, and more. Described using the Why-How-Who framework.
-- **[[knowledge-base/agent-skills|Agent Skills]]** — executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for AI platforms like [Harmonica](https://harmonica.chat) or [OpenClaw](https://github.com/openclaw). Source: [skills repo](https://github.com/Open-Facilitation-Library/skills).
-- **[[knowledge-base/workflows|Workflows]]** — how real platforms orchestrate agents into complete facilitation systems. 14 platforms documented with agent roles, participant models, and stage pipelines.
-
 ## Repositories
 
-- [skills](https://github.com/Open-Facilitation-Library/skills) — Executable agent skills (Agent Skills spec)
 - [workflows](https://github.com/Open-Facilitation-Library/workflows) — Agent workflow definitions for 14 AI facilitation platforms
 - [evals](https://github.com/Open-Facilitation-Library/evals) — Evaluation frameworks and conversation signatures
 - [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) — Opinion exposure algorithms
@@ -67,12 +66,6 @@ Three complementary layers:
 ## Support
 
 **[Donate on Giveth](https://giveth.io/project/open-facilitation-library)** — Help fund research, development, and community building.
-
-## Subscribe
-
-Stay updated with OFL research and announcements:
-
-<iframe src="https://openfac.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white; max-width:480px;" frameborder="0" scrolling="no"></iframe>
 
 ## Contributing
 

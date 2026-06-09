@@ -8,8 +8,6 @@ tags:
   - deliberation
 ---
 
-# Generative Social Choice
-
 *[Fish et al., 2025](https://arxiv.org/abs/2309.01291) — Harvard & Cornell*
 
 ---

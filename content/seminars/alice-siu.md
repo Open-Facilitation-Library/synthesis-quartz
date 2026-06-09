@@ -7,8 +7,6 @@ tags:
 date: 2025-11-10
 ---
 
-# Alice Siu: Stanford Online Deliberation Platform
-
 **Date**: November 10, 2025
 **Speaker**: Alice Siu, Stanford University
 **Duration**: ~50 minutes

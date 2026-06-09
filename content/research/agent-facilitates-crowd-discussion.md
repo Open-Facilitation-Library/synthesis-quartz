@@ -7,8 +7,6 @@ tags:
   - argumentation
 ---
 
-# D-agree: An Agent that Facilitates Crowd Discussion
-
 *[Ito, Hadfi & Suzuki, 2022](https://doi.org/10.1007/s10726-021-09765-8) — Group Decision and Negotiation*
 
 ---

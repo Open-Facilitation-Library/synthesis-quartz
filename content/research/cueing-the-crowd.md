@@ -7,8 +7,6 @@ tags:
   - collective-intelligence
 ---
 
-# Cueing the Crowd: LLM-Driven Conversational Cues
-
 *[Rayan et al., 2025](https://doi.org/10.1145/3715928.3737486) — Collective Intelligence Conference*
 
 ---

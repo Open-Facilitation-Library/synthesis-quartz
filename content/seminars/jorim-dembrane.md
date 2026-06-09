@@ -7,8 +7,6 @@ tags:
 date: 2025-10-09
 ---
 
-# Jorim Theuns (Dembrane): Echo Tool & Real-time Summarization
-
 **Date**: October 9, 2025
 **Speaker**: Jorim Theuns, Dembrane
 **Duration**: ~53 minutes

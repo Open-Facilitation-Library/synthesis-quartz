@@ -7,8 +7,6 @@ tags:
 date: 2025-10-28
 ---
 
-# Jigsaw: Facilitation Research & Typology
-
 **Date**: October 28, 2025
 **Speakers**: Emily Saltz, Ian Beacock, Beth Goldberg (Google Jigsaw)
 **Duration**: ~67 minutes

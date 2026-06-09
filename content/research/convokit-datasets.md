@@ -8,8 +8,6 @@ tags:
   - convokit
 ---
 
-# ConvoKit: Datasets for Facilitation Research
-
 *[ConvoKit](https://convokit.cornell.edu/) — Cornell Conversational Analysis Toolkit*
 
 ---

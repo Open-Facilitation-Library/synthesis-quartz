@@ -2,8 +2,6 @@
 title: Research
 ---
 
-# Research
-
 Literature and references supporting OFL development.
 
 ## Key Papers

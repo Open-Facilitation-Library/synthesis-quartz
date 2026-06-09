@@ -2,8 +2,6 @@
 title: AI Facilitation Workflows
 ---
 
-# AI Facilitation Workflows
-
 A library of agent workflow definitions documenting how real platforms orchestrate AI agents to facilitate group processes. Each workflow captures agent roles, participant interaction models, stage pipelines, and data flow.
 
 **Inclusion criteria:** Does an AI agent actively conduct, guide, or mediate a conversation or group process? Tools that only collect votes, structure arguments, or analyze data post-hoc are out of scope.

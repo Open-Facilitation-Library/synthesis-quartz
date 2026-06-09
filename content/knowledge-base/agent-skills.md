@@ -1,12 +1,11 @@
 ---
 title: Agent Skills Design Guide
+draft: true
 tags:
   - skills
   - agents
   - specification
 ---
-
-# Agent Skills Design Guide
 
 Key principles and practical guidance from Anthropic's [Agent Skills specification](https://agentskills.io/specification) and [blog post](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills) (October 2025).
 

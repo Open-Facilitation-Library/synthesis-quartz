@@ -2,8 +2,6 @@
 title: OFL Seminars
 ---
 
-# OFL Seminars
-
 The Open Facilitation Library hosts a seminar series featuring experts in facilitation, deliberative democracy, and AI-assisted dialogue.
 
 ## 2025 Seminars

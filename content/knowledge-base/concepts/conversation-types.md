@@ -5,8 +5,6 @@ tags:
   - facilitation
 ---
 
-# Conversation Types in Facilitation
-
 Understanding the different types of structured conversations helps select appropriate facilitation methods.
 
 ## Three Primary Types

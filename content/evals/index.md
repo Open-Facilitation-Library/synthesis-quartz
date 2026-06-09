@@ -2,8 +2,6 @@
 title: Evaluation Frameworks
 ---
 
-# Evaluation Frameworks
-
 Tools and schemas for assessing facilitation quality. Source code and schemas live in the [evals](https://github.com/Open-Facilitation-Library/evals) repository.
 
 ## Why-How-Who Framework

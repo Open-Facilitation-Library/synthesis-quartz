@@ -6,8 +6,6 @@ tags:
   - collective-intelligence-project
 ---
 
-# weval — Open Evaluations as a Commons
-
 *[weval.org](https://weval.org) — [Collective Intelligence Project](https://cip.org)*
 
 ---

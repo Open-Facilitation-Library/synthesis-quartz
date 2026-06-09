@@ -6,8 +6,6 @@ tags:
   - techniques
 ---
 
-# Facilitation Techniques
-
 *Synthesis from education, deliberation, and AI research*
 
 ---

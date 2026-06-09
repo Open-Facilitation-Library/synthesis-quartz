@@ -6,8 +6,6 @@ tags:
   - facilitation
 ---
 
-# AI Facilitation Approaches
-
 Two complementary approaches to AI-assisted facilitation have emerged from OFL research and discussions.
 
 ## Approach 1: Fine-Tuning Models

@@ -8,8 +8,6 @@ tags:
   - facilitation
 ---
 
-# Evaluation and Facilitation of Online Discussions in the LLM Era
-
 *[Korre et al., 2025](https://arxiv.org/abs/2503.01513) — Athens & INSEAD*
 
 ---

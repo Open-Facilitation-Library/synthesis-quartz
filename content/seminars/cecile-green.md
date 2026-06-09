@@ -7,8 +7,6 @@ tags:
 date: 2025-09-16
 ---
 
-# Cecile Green: Commoning Standard
-
 **Date**: September 16, 2025
 **Speaker**: Cecile Green, Round Sky Solutions
 **Duration**: ~70 minutes

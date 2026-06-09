@@ -7,8 +7,6 @@ tags:
   - moderation
 ---
 
-# AI Moderation and Chatbot Facilitation
-
 *Research on automated facilitation systems*
 
 ---

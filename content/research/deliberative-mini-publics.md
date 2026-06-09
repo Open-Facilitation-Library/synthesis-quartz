@@ -7,8 +7,6 @@ tags:
   - mini-publics
 ---
 
-# Deliberative Mini-Publics
-
 *Research on citizen deliberation forums and facilitation's role in democratic processes*
 
 ---

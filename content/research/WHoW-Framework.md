@@ -6,8 +6,6 @@ tags:
   - moderation
 ---
 
-# WHoW Framework for Moderation Analysis
-
 *[Chen, Frermann & Lau, 2024](https://arxiv.org/abs/2410.15551) — University of Melbourne*
 
 ---

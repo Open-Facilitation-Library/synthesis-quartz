@@ -7,8 +7,6 @@ tags:
 date: 2025-08-05
 ---
 
-# Martin Carcasson: Deliberative Facilitation & Wicked Problems
-
 **Date**: August 5, 2025
 **Speaker**: Martin Carcasson, Colorado State University
 **Duration**: ~70 minutes

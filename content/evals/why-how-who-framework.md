@@ -5,8 +5,6 @@ tags:
   - framework
 ---
 
-# Why-How-Who Evaluation Framework
-
 A framework for encoding, comparing, and evaluating facilitation methodologies, developed through research at Cooperative AI (Joseph Low) in collaboration with OFL.
 
 ## Overview

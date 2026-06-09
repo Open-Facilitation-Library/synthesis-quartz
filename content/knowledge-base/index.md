@@ -2,8 +2,6 @@
 title: Knowledge Base
 ---
 
-# Knowledge Base
-
 Core concepts and definitions for the Open Facilitation Library.
 
 ## Purpose

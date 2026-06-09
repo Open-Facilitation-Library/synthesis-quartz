@@ -7,8 +7,6 @@ tags:
   - deliberation
 ---
 
-# Storytelling in Deliberation
-
 *Research on personal narratives in facilitated discussion*
 
 ---

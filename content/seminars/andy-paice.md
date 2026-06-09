@@ -7,8 +7,6 @@ tags:
 date: 2025-09-02
 ---
 
-# Andy Paice: Citizens Assemblies & Dynamic Facilitation
-
 **Date**: September 2, 2025
 **Speaker**: Andy Paice (7+ years in deliberative democracy)
 **Duration**: ~70 minutes

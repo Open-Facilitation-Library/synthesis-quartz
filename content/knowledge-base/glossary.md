@@ -5,8 +5,6 @@ tags:
   - definitions
 ---
 
-# OFL Glossary
-
 Core terms and definitions used across the Open Facilitation Library.
 
 ---
