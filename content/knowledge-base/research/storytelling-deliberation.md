@@ -1,4 +1,5 @@
 ---
+aliases: ["research/storytelling-deliberation"]
 title: Storytelling in Deliberation
 tags:
   - research
@@ -23,7 +24,7 @@ This matters for AI facilitation. Systems trained primarily on argumentative tex
 
 ## Types of Personal Sharing
 
-The [[research/fora-corpus|Fora corpus]] research distinguishes two types of personal content that appear in facilitated dialogue:
+The [[knowledge-base/research/fora-corpus|Fora corpus]] research distinguishes two types of personal content that appear in facilitated dialogue:
 
 **Personal stories** — discrete sequences of events with specific time references. *"When I moved to Maine, I looked around and said, 'There's like 12 vegetable farms, but only one place to get a steak.' So I switched completely."* These have narrative arc: a situation, a choice, an outcome.
 
@@ -37,7 +38,7 @@ Here's a finding that challenges naive views of facilitator neutrality: **82% of
 
 Facilitators aren't blank slates. They build rapport and model vulnerability by sharing themselves. The question isn't whether to share, but *when* and *how much*. Some facilitators share extensively to establish connection. Others maintain more distance to preserve perceived neutrality.
 
-For [[knowledge-base/concepts/ai-facilitation-approaches|AI facilitation]], this raises a genuine puzzle. Should an AI facilitator "share experiences"? It has none. Should it fabricate narratives? That feels manipulative. Should it acknowledge its nature? That might undermine the rapport that storytelling creates.
+For [[knowledge-base/ai-facilitation-approaches|AI facilitation]], this raises a genuine puzzle. Should an AI facilitator "share experiences"? It has none. Should it fabricate narratives? That feels manipulative. Should it acknowledge its nature? That might undermine the rapport that storytelling creates.
 
 ## What Stories Accomplish
 
@@ -65,4 +66,4 @@ The opportunity: AI could prompt for stories at appropriate moments, recognize w
 
 ## Related Research
 
-The [[research/fora-corpus|Fora corpus]] provides empirical data on storytelling patterns in facilitated dialogue. For facilitator practices around sharing, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. [[research/facilitation-techniques|Facilitation Techniques]] covers the broader repertoire of facilitator moves.
+The [[knowledge-base/research/fora-corpus|Fora corpus]] provides empirical data on storytelling patterns in facilitated dialogue. For facilitator practices around sharing, see [[knowledge-base/research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. [[knowledge-base/research/facilitation-techniques|Facilitation Techniques]] covers the broader repertoire of facilitator moves.

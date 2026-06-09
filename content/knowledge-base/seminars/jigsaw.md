@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/jigsaw"]
 title: "Jigsaw: Facilitation Research & Typology"
 tags:
   - seminar

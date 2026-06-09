@@ -1,4 +1,5 @@
 ---
+aliases: ["research/agent-facilitates-crowd-discussion"]
 title: "D-agree: An Agent that Facilitates Crowd Discussion"
 tags:
   - research
@@ -37,7 +38,7 @@ Three findings stood out:
 
 D-agree was built before the current wave of large language models—its facilitation rules are hand-crafted based on argument structure, not learned from examples. This makes it less flexible than [[knowledge-base/glossary#Inference-time Skills|inference-time approaches]] using models like GPT-4, but also more predictable and explainable.
 
-The IBIS framework provides a structured scaffolding that modern systems often lack. Papers like [[research/cueing-the-crowd|Cueing the Crowd]] show LLMs can generate useful prompts, but they don't track the logical structure of arguments the way D-agree does. A hybrid approach—LLM fluency with IBIS structure—might combine the best of both.
+The IBIS framework provides a structured scaffolding that modern systems often lack. Papers like [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]] show LLMs can generate useful prompts, but they don't track the logical structure of arguments the way D-agree does. A hybrid approach—LLM fluency with IBIS structure—might combine the best of both.
 
 ## Relevance to OFL
 
@@ -45,4 +46,4 @@ D-agree demonstrates that AI facilitation can work at genuine crowd scale, with 
 
 ## Related Research
 
-For a comprehensive survey of AI facilitation approaches, see [[research/evaluation-facilitation-llm-era|Korre et al.'s survey]]. The [[research/fora-corpus|Fora corpus]] provides human facilitator baselines that could benchmark systems like D-agree. For lighter-weight AI assistance, see [[research/cueing-the-crowd|Cueing the Crowd]].
+For a comprehensive survey of AI facilitation approaches, see [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al.'s survey]]. The [[knowledge-base/research/fora-corpus|Fora corpus]] provides human facilitator baselines that could benchmark systems like D-agree. For lighter-weight AI assistance, see [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]].

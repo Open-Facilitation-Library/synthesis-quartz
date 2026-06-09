@@ -1,4 +1,5 @@
 ---
+aliases: ["knowledge-base/concepts/ai-facilitation-approaches"]
 title: AI Facilitation Approaches
 tags:
   - concepts

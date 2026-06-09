@@ -1,4 +1,5 @@
 ---
+aliases: ["research/generative-social-choice"]
 title: "Generative Social Choice"
 tags:
   - research
@@ -53,7 +54,7 @@ The trial also focused on opinion *summarization*, not decision-making. Generati
 
 ## Connection to OFL
 
-This research addresses a different part of the facilitation pipeline than most OFL work. Where papers like [[research/cueing-the-crowd|Cueing the Crowd]] and [[research/agent-facilitates-crowd-discussion|D-agree]] focus on *during* conversation, generative social choice addresses the *synthesis* phase—turning a collection of perspectives into representative outputs.
+This research addresses a different part of the facilitation pipeline than most OFL work. Where papers like [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]] and [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] focus on *during* conversation, generative social choice addresses the *synthesis* phase—turning a collection of perspectives into representative outputs.
 
 For [[knowledge-base/glossary#Cross-Pollination|cross-pollination]], the preference-prediction capability is particularly relevant. If an LLM can predict how someone would feel about a statement, it can identify which statements would be most surprising or perspective-expanding for them.
 
@@ -61,4 +62,4 @@ The VC dimension framework might also inform [[evals/why-how-who-framework|evalu
 
 ## Related Research
 
-For AI facilitation during discussion, see [[research/bringing-everyone-to-table|Bringing Everyone to the Table]]. For opinion aggregation in [[knowledge-base/glossary#Deliberative|deliberative]] contexts, see [[research/deliberative-mini-publics|Deliberative Mini-Publics]].
+For AI facilitation during discussion, see [[knowledge-base/research/bringing-everyone-to-table|Bringing Everyone to the Table]]. For opinion aggregation in [[knowledge-base/glossary#Deliberative|deliberative]] contexts, see [[knowledge-base/research/deliberative-mini-publics|Deliberative Mini-Publics]].

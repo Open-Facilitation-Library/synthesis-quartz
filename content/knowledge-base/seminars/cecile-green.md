@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/cecile-green"]
 title: "Cecile Green: Commoning Standard"
 tags:
   - seminar

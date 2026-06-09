@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/andy-paice"]
 title: "Andy Paice: Citizens Assemblies & Dynamic Facilitation"
 tags:
   - seminar

@@ -48,10 +48,10 @@ See the [evals repo](https://github.com/Open-Facilitation-Library/evals) for usa
 
 ## Related Research
 
-- [[research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues with human annotations for facilitation strategies (MIT, ACL 2024). The closest academic dataset to OFL evals — complementary annotation schemes
-- [[research/WHoW-Framework|WHoW Framework]] — Academic framework for moderation analysis (Chen et al. 2024)
-- [[research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Comprehensive survey on evaluating LLM-based facilitation (Korre et al. 2025)
-- [[research/convokit-datasets|ConvoKit Datasets]] — Cornell Python toolkit with 30+ conversational corpora and built-in analysis transformers (Politeness Strategies, Linguistic Coordination, CRAFT Forecasting, Redirection detection, Linguistic Diversity). Priority datasets for OFL: DeliData (group deliberation), IQ2 (moderated debate with opinion shift), Conversations Gone Awry (derailment). Our pipeline handles the upstream problem ConvoKit doesn't (raw transcript → structured corpus); ConvoKit handles downstream analysis
+- [[knowledge-base/research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues with human annotations for facilitation strategies (MIT, ACL 2024). The closest academic dataset to OFL evals — complementary annotation schemes
+- [[knowledge-base/research/WHoW-Framework|WHoW Framework]] — Academic framework for moderation analysis (Chen et al. 2024)
+- [[knowledge-base/research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Comprehensive survey on evaluating LLM-based facilitation (Korre et al. 2025)
+- [[knowledge-base/research/convokit-datasets|ConvoKit Datasets]] — Cornell Python toolkit with 30+ conversational corpora and built-in analysis transformers (Politeness Strategies, Linguistic Coordination, CRAFT Forecasting, Redirection detection, Linguistic Diversity). Priority datasets for OFL: DeliData (group deliberation), IQ2 (moderated debate with opinion shift), Conversations Gone Awry (derailment). Our pipeline handles the upstream problem ConvoKit doesn't (raw transcript → structured corpus); ConvoKit handles downstream analysis
 - [[evals/weval|weval (CIP)]] — open, CC0 platform for public AI evals (rubric blueprints + multi-judge consensus + Krippendorff's α). OFL eval specs aim to interoperate; proposed validation partner
 
 ## Related Resources

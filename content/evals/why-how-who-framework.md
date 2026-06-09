@@ -144,5 +144,5 @@ This relative comparison is more tractable and produces measurable feedback sign
 
 ## Related Resources
 
-- [[research/WHoW-Framework|WHoW Framework (Chen et al. 2024)]] - Academic research on moderation analysis
+- [[knowledge-base/research/WHoW-Framework|WHoW Framework (Chen et al. 2024)]] - Academic research on moderation analysis
 - [[knowledge-base/glossary|Glossary]] - Term definitions

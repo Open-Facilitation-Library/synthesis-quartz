@@ -32,8 +32,8 @@ Two layers connect weval to OFL's [[evals/index|evaluation framework]]:
 ## Related
 
 - [[evals/why-how-who-framework|Why-How-Who Framework]] — OFL's facilitation eval dimensions; the natural content for weval blueprints
-- [[research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — the survey that maps *what* to measure; weval is *how* to measure it, in the open
-- [[research/WHoW-Framework|WHoW Framework]] — academic moderation-analysis framework
+- [[knowledge-base/research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — the survey that maps *what* to measure; weval is *how* to measure it, in the open
+- [[knowledge-base/research/WHoW-Framework|WHoW Framework]] — academic moderation-analysis framework
 
 ## Links
 

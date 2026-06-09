@@ -1,4 +1,5 @@
 ---
+aliases: ["research/convokit-datasets"]
 title: "ConvoKit: Datasets for Facilitation Research"
 tags:
   - research
@@ -121,7 +122,7 @@ Three related corpora of conversations that derail into antisocial behavior:
 
 ## Priority Datasets for OFL
 
-Based on alignment with the [[evals/why-how-who-framework|Why-How-Who framework]] and [[research/fora-corpus|Fora corpus]] work:
+Based on alignment with the [[evals/why-how-who-framework|Why-How-Who framework]] and [[knowledge-base/research/fora-corpus|Fora corpus]] work:
 
 1. **DeliData** — Validate WHoW taxonomy against deliberation cue annotations. No access request needed.
 2. **IQ2** — Correlate conversation signatures with measurable opinion change. The pre/post voting data is unique.
@@ -139,7 +140,7 @@ Once data is in ConvoKit format, these built-in transformers apply automatically
 - **Redirection detection** — built-in tool for what our WHoW `redirect` tag captures
 - **Linguistic Diversity** — quantifies speaker variation within conversations
 
-Our transcript processor pipeline handles the upstream problem ConvoKit doesn't: raw transcript → structured annotated corpus. Adding ConvoKit-format export would make all these tools available on our benchmarks. See [[research/fora-corpus|Fora corpus]] for the data format specification.
+Our transcript processor pipeline handles the upstream problem ConvoKit doesn't: raw transcript → structured annotated corpus. Adding ConvoKit-format export would make all these tools available on our benchmarks. See [[knowledge-base/research/fora-corpus|Fora corpus]] for the data format specification.
 
 ## Resources
 
@@ -150,7 +151,7 @@ Our transcript processor pipeline handles the upstream problem ConvoKit doesn't:
 
 ## Related
 
-- [[research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues, available as ConvoKit corpus (access by request)
-- [[research/WHoW-Framework|WHoW Framework]] — Academic moderation analysis framework
+- [[knowledge-base/research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues, available as ConvoKit corpus (access by request)
+- [[knowledge-base/research/WHoW-Framework|WHoW Framework]] — Academic moderation analysis framework
 - [[evals/why-how-who-framework|Why-How-Who Framework]] — OFL's evaluation dimensions
-- [[research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Survey of discussion quality metrics
+- [[knowledge-base/research/evaluation-facilitation-llm-era|Facilitation in the LLM Era]] — Survey of discussion quality metrics

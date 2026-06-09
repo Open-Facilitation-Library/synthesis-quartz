@@ -1,4 +1,5 @@
 ---
+aliases: ["research/WHoW-Framework"]
 title: WHoW Framework for Moderation Analysis
 tags:
   - research
@@ -40,7 +41,7 @@ The paper introduces three metrics that could inform [[evals/why-how-who-framewo
 
 **Specificity** — does the moderator address individuals or the whole group?
 
-A highly proactive, highly specific moderator actively steers discussion. A reactive, group-addressed moderator lets things flow. Neither is inherently superior—it depends on [[knowledge-base/concepts/conversation-types|what kind of conversation]] you're running.
+A highly proactive, highly specific moderator actively steers discussion. A reactive, group-addressed moderator lets things flow. Neither is inherently superior—it depends on [[knowledge-base/conversation-types|what kind of conversation]] you're running.
 
 ## Connection to OFL
 
@@ -60,4 +61,4 @@ The researchers released both human annotations (5,657 sentences) and GPT-4o ann
 
 ## Related Research
 
-The [[research/fora-corpus|Fora corpus]] provides complementary data on [[knowledge-base/glossary#Facilitation|facilitation]] (a related but distinct practice). For the OFL framework inspired by this research, see [[evals/why-how-who-framework|Why-How-Who]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] situates WHoW within broader discussion quality research.
+The [[knowledge-base/research/fora-corpus|Fora corpus]] provides complementary data on [[knowledge-base/glossary#Facilitation|facilitation]] (a related but distinct practice). For the OFL framework inspired by this research, see [[evals/why-how-who-framework|Why-How-Who]]. The [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. survey]] situates WHoW within broader discussion quality research.

@@ -1,4 +1,5 @@
 ---
+aliases: ["research/jigsaw-facilitation-ai-era"]
 title: "Jigsaw: Facilitation in the AI Era"
 tags:
   - research
@@ -31,7 +32,7 @@ The study also captures facilitators' early, often cautious, perspectives on AI 
 
 ## Why This Matters for OFL
 
-This study provides ground truth that quantitative approaches miss. The [[research/WHoW-Framework|WHoW Framework]] can tell us *what* moderation moves occur in conversations, but not *why* skilled practitioners choose them. The [[research/fora-corpus|Fora corpus]] shows patterns in facilitator behavior, but not the reasoning behind those patterns. Ethnographic work like this fills the gap.
+This study provides ground truth that quantitative approaches miss. The [[knowledge-base/research/WHoW-Framework|WHoW Framework]] can tell us *what* moderation moves occur in conversations, but not *why* skilled practitioners choose them. The [[knowledge-base/research/fora-corpus|Fora corpus]] shows patterns in facilitator behavior, but not the reasoning behind those patterns. Ethnographic work like this fills the gap.
 
 For building AI facilitators, the key insight may be the diversity itself. A single "best" facilitation style probably doesn't exist—different contexts and cultures call for different approaches. This suggests AI facilitation systems should be configurable rather than one-size-fits-all.
 
@@ -41,4 +42,4 @@ The study was led by Ian Beacock, Emily Saltz, Beth Goldberg, and Thea Mann at J
 
 ## Related Research
 
-For quantitative analysis of moderation, see [[research/WHoW-Framework|the WHoW Framework]]. The [[research/fora-corpus|Fora corpus]] provides data on facilitated dialogue from MIT. For OFL's seminar with Alice Siu on deliberative polling, see [[seminars/alice-siu|the seminar notes]].
+For quantitative analysis of moderation, see [[knowledge-base/research/WHoW-Framework|the WHoW Framework]]. The [[knowledge-base/research/fora-corpus|Fora corpus]] provides data on facilitated dialogue from MIT. For OFL's seminar with Alice Siu on deliberative polling, see [[knowledge-base/seminars/alice-siu|the seminar notes]].

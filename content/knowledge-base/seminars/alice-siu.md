@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/alice-siu"]
 title: "Alice Siu: Stanford Online Deliberation Platform"
 tags:
   - seminar

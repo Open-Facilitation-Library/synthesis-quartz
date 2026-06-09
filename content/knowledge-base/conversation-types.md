@@ -1,4 +1,5 @@
 ---
+aliases: ["knowledge-base/concepts/conversation-types"]
 title: Conversation Types in Facilitation
 tags:
   - concepts

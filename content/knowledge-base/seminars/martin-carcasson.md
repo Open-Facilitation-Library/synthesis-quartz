@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/martin-carcasson"]
 title: "Martin Carcasson: Deliberative Facilitation & Wicked Problems"
 tags:
   - seminar

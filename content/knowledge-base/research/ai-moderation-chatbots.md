@@ -1,4 +1,5 @@
 ---
+aliases: ["research/ai-moderation-chatbots"]
 title: AI Moderation and Chatbot Facilitation
 tags:
   - research
@@ -21,17 +22,17 @@ Not all AI facilitation is the same. Systems range from light-touch assistance t
 
 **Augmented** — AI handles routine tasks autonomously (auto-summarization, topic tracking) while humans manage relationship and judgment calls.
 
-**Autonomous** — AI leads facilitation directly, as in the [[research/agent-facilitates-crowd-discussion|D-agree]] system or [Kim et al.'s moderator chatbot](https://doi.org/10.1145/3449220).
+**Autonomous** — AI leads facilitation directly, as in the [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] system or [Kim et al.'s moderator chatbot](https://doi.org/10.1145/3449220).
 
 **Ensemble** — Multiple AI agents coordinate, each handling different aspects. [Fukumura & Ito](https://doi.org/10.1007/s10726-023-09869-z) describe a system with specialized agents for different argument types.
 
-The [[research/bringing-everyone-to-table|"Bringing Everyone to the Table" study]] found that autonomous LLM facilitation can outperform human facilitation on specific tasks (information sharing)—though whether this generalizes remains open.
+The [[knowledge-base/research/bringing-everyone-to-table|"Bringing Everyone to the Table" study]] found that autonomous LLM facilitation can outperform human facilitation on specific tasks (information sharing)—though whether this generalizes remains open.
 
 ## Current Systems
 
 Several working systems demonstrate different approaches:
 
-**[D-agree](https://www.d-agree.com/)** (Kyoto/Nagoya) — Uses [IBIS](https://en.wikipedia.org/wiki/Issue-based_information_system) (Issue-Based Information System) structure to classify posts and trigger appropriate facilitation. Pre-LLM but demonstrates crowd-scale automated facilitation is viable. See [[research/agent-facilitates-crowd-discussion|detailed summary]].
+**[D-agree](https://www.d-agree.com/)** (Kyoto/Nagoya) — Uses [IBIS](https://en.wikipedia.org/wiki/Issue-based_information_system) (Issue-Based Information System) structure to classify posts and trigger appropriate facilitation. Pre-LLM but demonstrates crowd-scale automated facilitation is viable. See [[knowledge-base/research/agent-facilitates-crowd-discussion|detailed summary]].
 
 **[Polis](https://pol.is/)** — Not a facilitator per se, but an opinion-clustering system that surfaces points of consensus and division. Influences how discussions get structured without directly moderating them.
 
@@ -69,7 +70,7 @@ The ethical consensus leans toward disclosure, but the question of *how* to disc
 
 ## Research Gaps
 
-The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] identifies four major gaps:
+The [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. survey]] identifies four major gaps:
 
 1. **Long-term studies** — Most experiments last hours. What happens over months?
 2. **Real-world deployment** — Lab performance may not predict field performance.
@@ -78,4 +79,4 @@ The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] identifies 
 
 ## Related Research
 
-For empirical data on human facilitation, see the [[research/fora-corpus|Fora corpus]]. The [[research/WHoW-Framework|WHoW Framework]] provides a taxonomy for analyzing moderation behavior. For specific systems, see [[research/agent-facilitates-crowd-discussion|D-agree]] and [[research/cueing-the-crowd|Cueing the Crowd]].
+For empirical data on human facilitation, see the [[knowledge-base/research/fora-corpus|Fora corpus]]. The [[knowledge-base/research/WHoW-Framework|WHoW Framework]] provides a taxonomy for analyzing moderation behavior. For specific systems, see [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] and [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]].

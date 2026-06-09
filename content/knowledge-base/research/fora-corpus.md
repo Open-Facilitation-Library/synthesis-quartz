@@ -1,4 +1,5 @@
 ---
+aliases: ["research/fora-corpus"]
 title: "Fora: Corpus for Facilitated Dialogue"
 tags:
   - research
@@ -43,7 +44,7 @@ The corpus distinguishes between:
 
 **Personal experience** — general statements about one's background or habits (*"In my 15 years of teaching, I rarely saw students behave badly to each other."*)
 
-About 90% of participants share personal experience during facilitated conversations, and 31% of conversations include facilitator personal stories. Understanding these patterns matters for [[knowledge-base/concepts/ai-facilitation-approaches|AI facilitation design]]: should an AI facilitator share "experiences"? How would that even work?
+About 90% of participants share personal experience during facilitated conversations, and 31% of conversations include facilitator personal stories. Understanding these patterns matters for [[knowledge-base/ai-facilitation-approaches|AI facilitation design]]: should an AI facilitator share "experiences"? How would that even work?
 
 ## Model Baselines
 
@@ -57,7 +58,7 @@ For **making connections** (identifying when a facilitator links one participant
 
 Fora provides the empirical ground truth that frameworks like [[evals/why-how-who-framework|Why-How-Who]] need for validation. Claims about what facilitators do, and which interventions work, should ultimately be testable against data like this.
 
-For training AI facilitators, the corpus offers both positive examples (techniques that appear in successful facilitation) and implicit negative examples (techniques that could be used but aren't). The annotation scheme could also inform [[research/WHoW-Framework|moderation analysis]] by providing facilitation-specific categories beyond generic dialogue acts.
+For training AI facilitators, the corpus offers both positive examples (techniques that appear in successful facilitation) and implicit negative examples (techniques that could be used but aren't). The annotation scheme could also inform [[knowledge-base/research/WHoW-Framework|moderation analysis]] by providing facilitation-specific categories beyond generic dialogue acts.
 
 ## ConvoKit Integration
 
@@ -96,4 +97,4 @@ Corpus access is managed through MIT Center for Constructive Communication:
 
 ## Related Research
 
-For analysis of moderation (a related but distinct practice), see the [[research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on facilitation, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a taxonomy of discussion quality dimensions that could be measured against Fora data. For other ConvoKit datasets relevant to facilitation, see [[research/convokit-datasets|ConvoKit Datasets]].
+For analysis of moderation (a related but distinct practice), see the [[knowledge-base/research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on facilitation, see [[knowledge-base/research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a taxonomy of discussion quality dimensions that could be measured against Fora data. For other ConvoKit datasets relevant to facilitation, see [[knowledge-base/research/convokit-datasets|ConvoKit Datasets]].

@@ -1,4 +1,5 @@
 ---
+aliases: ["seminars/jorim-dembrane"]
 title: "Jorim Theuns (Dembrane): Echo Tool & Real-time Summarization"
 tags:
   - seminar

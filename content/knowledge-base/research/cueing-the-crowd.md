@@ -1,4 +1,5 @@
 ---
+aliases: ["research/cueing-the-crowd"]
 title: "Cueing the Crowd: LLM-Driven Conversational Cues"
 tags:
   - research
@@ -23,9 +24,9 @@ The main finding: **cued groups generated more topically diverse ideas** than un
 
 Interestingly, in-person participants noticed slightly more cues on average than virtual participants—suggesting that meeting modality affects how people allocate attention to AI assistance.
 
-## Why This Matters for [[knowledge-base/concepts/ai-facilitation-approaches|AI Facilitation]]
+## Why This Matters for [[knowledge-base/ai-facilitation-approaches|AI Facilitation]]
 
-CueTip represents a lightweight form of [[knowledge-base/glossary#Inference-time Skills|inference-time facilitation]]—the AI doesn't take over the conversation, it simply offers occasional prompts. This contrasts with more active approaches like the [[research/agent-facilitates-crowd-discussion|D-agree platform]], where the AI directly participates in discussion.
+CueTip represents a lightweight form of [[knowledge-base/glossary#Inference-time Skills|inference-time facilitation]]—the AI doesn't take over the conversation, it simply offers occasional prompts. This contrasts with more active approaches like the [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree platform]], where the AI directly participates in discussion.
 
 The study offers practical design guidance:
 
@@ -41,4 +42,4 @@ The study used dyads (pairs) rather than larger groups, where facilitation chall
 
 ## Related Research
 
-For more active AI facilitation approaches, see [[research/agent-facilitates-crowd-discussion|D-agree: An Agent that Facilitates Crowd Discussion]]. For a comparison of AI versus human facilitators on decision-making tasks, see [[research/bringing-everyone-to-table|Bringing Everyone to the Table]]. The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of AI facilitation strategies.
+For more active AI facilitation approaches, see [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree: An Agent that Facilitates Crowd Discussion]]. For a comparison of AI versus human facilitators on decision-making tasks, see [[knowledge-base/research/bringing-everyone-to-table|Bringing Everyone to the Table]]. The [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of AI facilitation strategies.

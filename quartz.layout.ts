@@ -39,7 +39,26 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          "Knowledge Base": 0,
+          "Method Specs": 1,
+          "Evaluation Frameworks": 2,
+          "Seminars": 0,
+          "Research": 1,
+          "Teardowns": 2,
+          "Glossary": 3,
+          "AI Facilitation Approaches": 4,
+          "Conversation Types": 5,
+          "Protocols": 0,
+        }
+        const oa = order[a.displayName] ?? 99
+        const ob = order[b.displayName] ?? 99
+        if (oa !== ob) return oa - ob
+        return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -63,7 +82,26 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          "Knowledge Base": 0,
+          "Method Specs": 1,
+          "Evaluation Frameworks": 2,
+          "Seminars": 0,
+          "Research": 1,
+          "Teardowns": 2,
+          "Glossary": 3,
+          "AI Facilitation Approaches": 4,
+          "Conversation Types": 5,
+          "Protocols": 0,
+        }
+        const oa = order[a.displayName] ?? 99
+        const ob = order[b.displayName] ?? 99
+        if (oa !== ob) return oa - ob
+        return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
+      },
+    }),
   ],
   right: [],
 }

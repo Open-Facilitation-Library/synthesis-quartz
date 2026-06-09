@@ -1,4 +1,5 @@
 ---
+aliases: ["research/evaluation-facilitation-llm-era"]
 title: "Evaluation and Facilitation of Online Discussions in the LLM Era"
 tags:
   - research
@@ -91,7 +92,7 @@ Four gaps stand out:
 1. **Limited real-world deployment** — Most studies are lab experiments
 2. **No longitudinal evaluation** — How do facilitated communities evolve over time?
 3. **Cross-cultural validation needed** — What works in one culture may fail in another
-4. **Hybrid human-AI facilitation understudied** — The [[research/agent-facilitates-crowd-discussion|D-agree]] finding that combined facilitation works best needs replication
+4. **Hybrid human-AI facilitation understudied** — The [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] finding that combined facilitation works best needs replication
 
 ## Connection to OFL
 
@@ -102,8 +103,8 @@ This survey is essentially a literature review of everything relevant to the [[e
 - Baseline capabilities for LLM approaches
 - Research directions that OFL could pursue
 
-The escalation ladder and warning-sign frameworks are particularly actionable for designing [[knowledge-base/concepts/ai-facilitation-approaches|AI facilitation systems]].
+The escalation ladder and warning-sign frameworks are particularly actionable for designing [[knowledge-base/ai-facilitation-approaches|AI facilitation systems]].
 
 ## Related Research
 
-For empirical facilitation data, see the [[research/fora-corpus|Fora corpus]]. For moderation analysis specifically, see the [[research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on AI facilitation, see the [[research/jigsaw-facilitation-ai-era|Jigsaw ethnographic study]].
+For empirical facilitation data, see the [[knowledge-base/research/fora-corpus|Fora corpus]]. For moderation analysis specifically, see the [[knowledge-base/research/WHoW-Framework|WHoW Framework]]. For practitioner perspectives on AI facilitation, see the [[knowledge-base/research/jigsaw-facilitation-ai-era|Jigsaw ethnographic study]].

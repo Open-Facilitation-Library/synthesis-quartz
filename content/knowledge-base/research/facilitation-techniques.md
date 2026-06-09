@@ -1,4 +1,5 @@
 ---
+aliases: ["research/facilitation-techniques"]
 title: Facilitation Techniques
 tags:
   - research
@@ -30,11 +31,11 @@ These aren't exotic skills. They're the bread-and-butter moves that competent fa
 
 **Intellectual** — advancing content and understanding. Asking the probing question that opens new territory, connecting disparate points into insight.
 
-Most facilitators lean toward one or two of these. AI systems tend to be better at organizational functions and struggle with social ones—a pattern worth keeping in mind for [[knowledge-base/concepts/ai-facilitation-approaches|hybrid human-AI facilitation]].
+Most facilitators lean toward one or two of these. AI systems tend to be better at organizational functions and struggle with social ones—a pattern worth keeping in mind for [[knowledge-base/ai-facilitation-approaches|hybrid human-AI facilitation]].
 
 ## Which Techniques Can AI Handle?
 
-The [[research/fora-corpus|Fora corpus]] research tested GPT-4 and fine-tuned RoBERTa on detecting facilitation techniques. The results suggest some techniques are more automatable than others:
+The [[knowledge-base/research/fora-corpus|Fora corpus]] research tested GPT-4 and fine-tuned RoBERTa on detecting facilitation techniques. The results suggest some techniques are more automatable than others:
 
 **Summarization** — LLMs excel here. This is arguably their core competency.
 
@@ -52,4 +53,4 @@ Does it matter which techniques you use? [Dillard (2013)](https://doi.org/10.108
 
 ## Related Research
 
-The [[research/fora-corpus|Fora corpus]] provides empirical data on how often these techniques appear in real facilitated conversations. The [[research/WHoW-Framework|WHoW Framework]] offers a taxonomy for analyzing moderation acts. For how AI systems can implement these techniques, see [[research/agent-facilitates-crowd-discussion|D-agree]] and [[research/cueing-the-crowd|Cueing the Crowd]].
+The [[knowledge-base/research/fora-corpus|Fora corpus]] provides empirical data on how often these techniques appear in real facilitated conversations. The [[knowledge-base/research/WHoW-Framework|WHoW Framework]] offers a taxonomy for analyzing moderation acts. For how AI systems can implement these techniques, see [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] and [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]].

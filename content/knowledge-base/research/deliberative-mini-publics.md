@@ -1,4 +1,5 @@
 ---
+aliases: ["research/deliberative-mini-publics"]
 title: Deliberative Mini-Publics
 tags:
   - research
@@ -39,13 +40,13 @@ Mini-publics research has developed quality indicators that any facilitation (hu
 
 **Constructiveness** — discussion builds toward shared understanding rather than entrenching division.
 
-These map onto dimensions in the [[research/evaluation-facilitation-llm-era|Korre et al. taxonomy]]: structure & logic, social dynamics, and engagement. The mini-publics tradition provides normative grounding for what those dimensions should achieve.
+These map onto dimensions in the [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. taxonomy]]: structure & logic, social dynamics, and engagement. The mini-publics tradition provides normative grounding for what those dimensions should achieve.
 
 ## The Scale Problem
 
 Traditional mini-publics involve perhaps 100-500 participants at most. Getting people together in person, paying for professional facilitators, providing materials—it's expensive.
 
-AI facilitation could change the economics. The [[research/agent-facilitates-crowd-discussion|D-agree platform]] demonstrates AI facilitating thousands of participants simultaneously. [[research/generative-social-choice|Generative social choice]] suggests ways to synthesize opinions at scale while maintaining representation guarantees.
+AI facilitation could change the economics. The [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree platform]] demonstrates AI facilitating thousands of participants simultaneously. [[knowledge-base/research/generative-social-choice|Generative social choice]] suggests ways to synthesize opinions at scale while maintaining representation guarantees.
 
 But scale brings risks. Human facilitators build relationships with participants, notice subtle dynamics, exercise judgment in ambiguous situations. These qualities don't scale easily. A system facilitating a million conversations simultaneously is doing something qualitatively different from a human working with a dozen people—even if the individual interactions look similar.
 
@@ -54,9 +55,9 @@ But scale brings risks. Human facilitators build relationships with participants
 | Dataset | Description |
 |---------|-------------|
 | [EuroPolis](https://doi.org/10.1017/S0007123417000059) | Transcripts from a transnational European deliberative poll |
-| [[research/fora-corpus\|Fora]] | 262 facilitated dialogues from US community discussions |
+| [[knowledge-base/research/fora-corpus\|Fora]] | 262 facilitated dialogues from US community discussions |
 | America in One Room | Large-scale US deliberative poll |
 
 ## Related Research
 
-For facilitation practices in deliberative contexts, see [[research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[research/fora-corpus|Fora corpus]] provides empirical baselines on facilitator behavior. For AI approaches to democratic processes, see [[research/generative-social-choice|Generative Social Choice]].
+For facilitation practices in deliberative contexts, see [[knowledge-base/research/jigsaw-facilitation-ai-era|Facilitation in the AI Era]]. The [[knowledge-base/research/fora-corpus|Fora corpus]] provides empirical baselines on facilitator behavior. For AI approaches to democratic processes, see [[knowledge-base/research/generative-social-choice|Generative Social Choice]].

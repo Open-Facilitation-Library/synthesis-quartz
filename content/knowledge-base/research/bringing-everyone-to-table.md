@@ -1,4 +1,5 @@
 ---
+aliases: ["research/bringing-everyone-to-table"]
 title: "Bringing Everyone to the Table: LLM vs Human Facilitation"
 tags:
   - research
@@ -43,12 +44,12 @@ This suggests exposure matters. If people's first experience with AI facilitatio
 
 The study supports a specific, limited claim: LLMs can help groups share more information during structured decision-making tasks. This is useful for contexts like [[knowledge-base/glossary#Deliberative|deliberative]] processes where information coverage matters.
 
-It doesn't tell us whether LLMs can handle more complex facilitation challenges—[[knowledge-base/glossary#Transformative|transformative]] conversations involving conflict, emotional processing, or relationship repair. The [[research/jigsaw-facilitation-ai-era|Jigsaw ethnographic study]] suggests these dimensions are where human facilitators see their irreplaceable value.
+It doesn't tell us whether LLMs can handle more complex facilitation challenges—[[knowledge-base/glossary#Transformative|transformative]] conversations involving conflict, emotional processing, or relationship repair. The [[knowledge-base/research/jigsaw-facilitation-ai-era|Jigsaw ethnographic study]] suggests these dimensions are where human facilitators see their irreplaceable value.
 
 ## Connection to OFL
 
-For the [[evals/why-how-who-framework|Why-How-Who framework]], this study provides evidence on the "How" dimension: LLM facilitation with explicit prompting to share information increases the "information coverage" outcome. The experimental methodology could serve as a template for evaluating [[knowledge-base/concepts/ai-facilitation-approaches|AI facilitation approaches]].
+For the [[evals/why-how-who-framework|Why-How-Who framework]], this study provides evidence on the "How" dimension: LLM facilitation with explicit prompting to share information increases the "information coverage" outcome. The experimental methodology could serve as a template for evaluating [[knowledge-base/ai-facilitation-approaches|AI facilitation approaches]].
 
 ## Related Research
 
-For more on AI facilitation systems, see [[research/agent-facilitates-crowd-discussion|D-agree]] (crowd-scale) and [[research/cueing-the-crowd|Cueing the Crowd]] (brainstorming cues). The [[research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of LLM facilitation research.
+For more on AI facilitation systems, see [[knowledge-base/research/agent-facilitates-crowd-discussion|D-agree]] (crowd-scale) and [[knowledge-base/research/cueing-the-crowd|Cueing the Crowd]] (brainstorming cues). The [[knowledge-base/research/evaluation-facilitation-llm-era|Korre et al. survey]] provides a broader taxonomy of LLM facilitation research.

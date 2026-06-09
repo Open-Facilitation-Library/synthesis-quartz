@@ -1,8 +1,9 @@
 ---
-title: AI Facilitation Workflows
+aliases: ["knowledge-base/workflows"]
+title: Teardowns
 ---
 
-A library of agent workflow definitions documenting how real platforms orchestrate AI agents to facilitate group processes. Each workflow captures agent roles, participant interaction models, stage pipelines, and data flow.
+Teardowns of how real platforms orchestrate AI agents to facilitate group processes. Each captures agent roles, participant interaction models, stage pipelines, and data flow.
 
 **Inclusion criteria:** Does an AI agent actively conduct, guide, or mediate a conversation or group process? Tools that only collect votes, structure arguments, or analyze data post-hoc are out of scope.
 
@@ -46,8 +47,4 @@ See the [schema definition](https://github.com/Open-Facilitation-Library/workflo
 
 ## How This Fits into OFL
 
-Workflows are one of three complementary layers:
-
-1. **Patterns** (this knowledge base) — abstract facilitation methodologies
-2. **[Agent Skills](https://github.com/Open-Facilitation-Library/skills)** — executable instructions following the [Agent Skills spec](https://agentskills.io/specification)
-3. **Workflows** (this page) — how real platforms wire agents into complete facilitation systems
+Teardowns are **reference** — a map of how the field actually builds AI facilitation today. They inform the [[method-specs/index|method specs]] OFL is defining (portable protocols + their evals), alongside the [[evals/index|evaluation frameworks]] and the rest of the knowledge base.
