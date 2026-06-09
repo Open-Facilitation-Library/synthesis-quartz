@@ -50,18 +50,12 @@ The rest of the library is the research and reference these specs draw on — ab
 
 ## Evaluation Frameworks
 
-Tools for assessing facilitation quality through structured comparison. Source: [evals repo](https://github.com/Open-Facilitation-Library/evals).
+Tools for assessing facilitation quality through structured comparison.
 
 - [[evals/why-how-who-framework\|Why-How-Who Framework]] — Encode, compare, and evaluate facilitation methodologies
 - [[evals/index\|Conversation Signatures]] — Compute measurable similarity to reference methodologies
 
 [[evals/index|Browse evaluation frameworks →]]
-
-## Repositories
-
-- [workflows](https://github.com/Open-Facilitation-Library/workflows) — Agent workflow definitions for 14 AI facilitation platforms
-- [evals](https://github.com/Open-Facilitation-Library/evals) — Evaluation frameworks and conversation signatures
-- [cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination) — Opinion exposure algorithms
 
 ## Support
 

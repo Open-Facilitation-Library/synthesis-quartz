@@ -2,7 +2,7 @@
 title: Evaluation Frameworks
 ---
 
-Tools and schemas for assessing facilitation quality. Source code and schemas live in the [evals](https://github.com/Open-Facilitation-Library/evals) repository.
+Tools and schemas for assessing facilitation quality.
 
 ## Why-How-Who Framework
 
@@ -28,9 +28,9 @@ The key evaluation mechanism: compute "signatures" of conversations based on Why
 - **Outcome-based**: Measuring discussion quality and results — did participants reach agreement, generate ideas?
 - **Conversation signatures**: Comparing discussions to known facilitation styles — what methodology does this most resemble?
 
-## Repository Structure
+## Structure
 
-The [evals repo](https://github.com/Open-Facilitation-Library/evals) contains:
+The evaluation framework includes:
 
 | Directory | Contents |
 |-----------|----------|
@@ -44,8 +44,6 @@ An automated pipeline that takes raw facilitation transcripts and produces annot
 
 Pipeline: **parse** → **anonymize** → **annotate** → **compute signature** → **render benchmark**
 
-See the [evals repo](https://github.com/Open-Facilitation-Library/evals) for usage.
-
 ## Related Research
 
 - [[knowledge-base/research/fora-corpus|Fora Corpus]] — 262 facilitated dialogues with human annotations for facilitation strategies (MIT, ACL 2024). The closest academic dataset to OFL evals — complementary annotation schemes
@@ -56,5 +54,4 @@ See the [evals repo](https://github.com/Open-Facilitation-Library/evals) for usa
 
 ## Related Resources
 
-- [Pattern Schema](https://github.com/Open-Facilitation-Library/skills/tree/main/patterns/schema) — Facilitation patterns include evaluation criteria per methodology
 - [[knowledge-base/glossary|Glossary]] — Term definitions

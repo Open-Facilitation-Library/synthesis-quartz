@@ -44,4 +44,3 @@ Literature and references supporting OFL development.
 ## Resources
 
 - [OFL Substack](https://openfac.substack.com) publications
-- [GitHub repositories](https://github.com/open-facilitation-library)

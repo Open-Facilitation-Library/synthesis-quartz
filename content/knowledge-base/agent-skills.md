@@ -11,8 +11,6 @@ Key principles and practical guidance from Anthropic's [Agent Skills specificati
 
 This document captures the design philosophy behind the Agent Skills spec to guide OFL's conversion of WHoW facilitation patterns into executable agent skills.
 
-Source: [skills repo](https://github.com/Open-Facilitation-Library/skills)
-
 ---
 
 ## Core Analogy
