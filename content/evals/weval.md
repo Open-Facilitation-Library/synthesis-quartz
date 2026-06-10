@@ -1,5 +1,5 @@
 ---
-title: "weval — Open Evaluations as a Commons"
+title: "weval.org"
 tags:
   - evaluation
   - tools
