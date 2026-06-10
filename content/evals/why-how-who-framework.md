@@ -1,5 +1,5 @@
 ---
-title: Why-How-Who Evaluation Framework
+title: Why-How-Who
 tags:
   - evaluation
   - framework
