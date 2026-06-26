@@ -37,7 +37,7 @@ Core concepts and definitions shared across OFL projects.
 - [[knowledge-base/glossary\|Glossary]] - Term definitions
 - [[knowledge-base/conversation-types\|Conversation Types]] - Deliberative, generative, transformative
 - [[knowledge-base/ai-facilitation-approaches\|AI Facilitation Approaches]] - Fine-tuning vs inference-time
-- [[knowledge-base/teardowns\|Teardowns]] - How 14 platforms orchestrate AI facilitation agents
+- [[knowledge-base/teardowns\|Teardowns]] - How many platforms orchestrate AI facilitation agents
 
 ## Architecture
 
@@ -46,7 +46,9 @@ OFL's core artifact is the **method spec**: a portable, forkable definition of a
 - **A protocol** — the method itself, as a forkable spec: its stages, roles, facilitator prompts, and what carries between them. Fork it, adapt it, run it on any capable runtime.
 - **Evals** — how you know it ran well: rubrics scored against the conversation, interoperable with [weval](https://weval.org)'s open eval format.
 
-The rest of the library is the research and reference these specs draw on — abstract **patterns** (facilitation methodologies described with the Why-How-Who framework) and **teardowns** (how 14 real platforms orchestrate AI facilitation agents today).
+Nine methods are published in the [method-specs registry](https://github.com/Open-Facilitation-Library/method-specs); browse them under [[method-specs/protocols/index|protocols]].
+
+The rest of the library is the research and reference these specs draw on — abstract **patterns** (facilitation methodologies described with the Why-How-Who framework) and **teardowns** (how many real platforms orchestrate AI facilitation agents today).
 
 ## Evaluation Frameworks
 
