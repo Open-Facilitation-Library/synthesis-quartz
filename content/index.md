@@ -50,14 +50,14 @@ Nine methods are published in the [method-specs registry](https://github.com/Ope
 
 The rest of the library is the research and reference these specs draw on — abstract **patterns** (facilitation methodologies described with the Why-How-Who framework) and **teardowns** (how many real platforms orchestrate AI facilitation agents today).
 
-## Evaluation Frameworks
+## Evaluation
 
-Tools for assessing facilitation quality through structured comparison.
+Every method spec is paired with evals: per-stage, per-method rubrics scored against real conversation turns, so "good facilitation" is inspectable and measurable by the method's own logic rather than assumed. Interoperable with [weval](https://weval.org)'s open format.
 
-- [[evals/why-how-who-framework\|Why-How-Who Framework]] — Encode, compare, and evaluate facilitation methodologies
-- [[evals/index\|Conversation Signatures]] — Compute measurable similarity to reference methodologies
+- [[evals/index|Evaluation frameworks]]: how the per-stage evals work, and how the criteria stay honest
+- [[evals/why-how-who-framework|Why-How-Who framework]]: a research lens for comparing methods across traditions
 
-[[evals/index|Browse evaluation frameworks →]]
+[[evals/index|Browse evaluation →]]
 
 ## Support
 
