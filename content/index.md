@@ -50,6 +50,12 @@ Nine methods are published in the [method-specs registry](https://github.com/Ope
 
 The rest of the library is the research and reference these specs draw on — abstract **patterns** (facilitation methodologies described with the Why-How-Who framework) and **teardowns** (how many real platforms orchestrate AI facilitation agents today).
 
+## A standard owned by facilitators
+
+Good facilitation has to be defined by the people who facilitate. OFL is built so the definition they produce, the evaluations and the knowledge, stays a shared resource they own and govern, closer to a data cooperative than to data a platform extracts. The specs also map to the field rather than walling it off: each one cross-maps to [Group Works](https://groupworksdeck.org/) patterns and [IAF](https://iaf-world.org/) competencies.
+
+[[the-standard|How the standard is owned and governed →]]
+
 ## Evaluation
 
 Every method spec is paired with evals: per-stage, per-method rubrics scored against real conversation turns, so "good facilitation" is inspectable and measurable by the method's own logic rather than assumed. Interoperable with [weval](https://weval.org)'s open format.
